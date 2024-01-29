@@ -1,3 +1,8 @@
+---
+title:  "Very cool page"
+permalink: /about
+---
+
 <div data-post-id="38" class="insert-page insert-page-38 ">
 
 ---
