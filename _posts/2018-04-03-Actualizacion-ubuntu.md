@@ -2,8 +2,7 @@
 title: "Actualización de Seguridad para Ubuntu"
 author: "Felipe Castañeda"
 ---
-{{ title }}
-{{ author }}
+
 Ubuntu ha liberado dos boletines de seguridad (USN-3614-1 y USN-3613-1) para corregir múltiples problemas de seguridad para las versiones de OpenJDK (versión libre de la plataforma de desarrollo Java bajo concepto de lenguaje orientado a objetos).
 
 En ambos boletines se destacan las siguientes correcciones:
@@ -47,7 +46,7 @@ El componente JNDI de OpenJDK no restringía adecuadamente la cantidad de memori
 - Ubuntu 17.10
 - Ubuntu 16.04 LTS
 
-*Links para Descargar la Actualización*
+**Links para Descargar la Actualización**
 
 *Ubuntu 14.04 LTS*
 - icedtea-7-jre-jamvm – 7u171-2.6.13-0ubuntu0.14.04.2
