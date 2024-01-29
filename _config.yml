@@ -134,19 +134,19 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
+      url: "https://twitter.com/party_hack"
+    - label: "Linkedin"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
+      url: "https://cl.linkedin.com/company/partyhack-cl"
+    - label: "Youtube"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
+      url: "https://www.youtube.com/channel/UCHLBYZ7Sv3jFCiBN3AgMUSA?sub_confirmation=1"
+    - label: "Telegram"
       icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
+      url: "https://t.me/+R9wfL2gGhjUEtlYX"
+    - label: "Email"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "mailto:conversemos@partyhack.cl"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
