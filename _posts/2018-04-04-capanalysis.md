@@ -50,10 +50,10 @@ Los protocolos que CapAnalysis puede identificar son más de 140 y dentro de est
 
 CapAnalisys esta diseñado para sistemas basados en Debian y Ubuntu con arquitecturas de 32 y 64 bits. Para comenzar con la instalación primero se debe descargar la aplicación desde los siguientes enlaces:
 
-- (Debian 32 bits)[http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_i386.deb/download]{:target="_blank"}
-- (Debian 64 bits)[http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_amd64.deb/download]{:target="_blank"}
-- (Ubuntu 32 bits)[http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_i386.deb/download]{:target="_blank"}
-- (Ubuntu 64 bits)[http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_amd64.deb/download]{:target="_blank"}
+- [Debian 32 bits](http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_i386.deb/download){:target="_blank"}
+- [Debian 64 bits](http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_amd64.deb/download){:target="_blank"}
+- [Ubuntu 32 bits](http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_i386.deb/download){:target="_blank"}
+- [Ubuntu 64 bits](http://sourceforge.net/projects/capanalysis/files/version%201.2.2/capanalysis_1.2.2_amd64.deb/download){:target="_blank"}
 	
 Para simplificar este proceso ocuparemos la herramienta Gdebi, la cual nos permite instalar archivos DEB en nuestro sistema de forma simple.
 
