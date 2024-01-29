@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Quienes Somos"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "<span style='text-align:justify'>Somos una comunidad Chilena de Ciberseguridad, enfocada en entregar conocimiento a las personas que lo necesitan, permitiendo el intercambio de conocimiento e información, entre nuestros miembros.</span>"
+  bio              : "<p style='text-align:justify'>Somos una comunidad Chilena de Ciberseguridad, enfocada en entregar conocimiento a las personas que lo necesitan, permitiendo el intercambio de conocimiento e información, entre nuestros miembros.</p>"
   location         : "Chile"
   email            : 
   links:
