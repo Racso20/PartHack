@@ -41,7 +41,7 @@ El componente JNDI de OpenJDK no restringía adecuadamente la cantidad de memori
 
 **Versiones Afectadas de OpenJDK 7**
 
--Ubuntu 14.04 LTS
+- Ubuntu 14.04 LTS
 
 **Versiones Afectadas de OpenJDK 8**
 
