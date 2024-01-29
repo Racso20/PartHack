@@ -3,7 +3,7 @@ main:
   - title: "Inicio"
     url: "#"
   - title: "Quienes Somos"
-    sublinks:
+    children:
         - title: "Misión - Visión"
           url: "#"
         - title: "Nosotros"
@@ -11,7 +11,7 @@ main:
         - title: "Nuestro Logo"
           url: "#"
   - title: "Articulos"
-    sublinks:
+    children:
         - title: "Ciberseguridad"
           url: "#"
         - title: "Eventos"
@@ -25,7 +25,8 @@ main:
   - title: "Eventos"
     url: "#"
   - title: "Alianzas"
-    sublinks:
+    url: "#"
+    children:
         - title: "Misión - Visión"
           url: "#"
   - title: "Contactos"
