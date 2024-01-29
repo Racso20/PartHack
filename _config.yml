@@ -197,7 +197,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
+_pages/about.md 	permalink: /about/
 # Markdown Processing
 kramdown:
   input: GFM
