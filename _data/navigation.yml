@@ -1,16 +1,32 @@
 # main links
 main:
   - title: "Inicio"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: "#"
   - title: "Quienes Somos"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    children:
+        - title: "Misión - Visión"
+          url: "#"
+        - title: "Nosotros"
+          url: "#"
+        - title: "Nuestro Logo"
+          url: "#"
   - title: "Articulos"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    children:
+        - title: "Ciberseguridad"
+          url: "#"
+        - title: "Eventos"
+          url: "#"
+        - title: "Noticias"
+          url: "#"
+        - title: "Tecnología"
+          url: "#"
   - title: "Merchandising"
-    url: /year-archive/
+    url: "#"
   - title: "Eventos"
-    url: /collection-archive/
+    url: "#"
   - title: "Alianzas"
-    url: /sitemap/
+    children:
+        - title: "Misión - Visión"
+          url: "#"
   - title: "Contactos"
-    url: /sitemap/
+    url: "#"
