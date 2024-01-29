@@ -145,7 +145,7 @@ footer:
       icon: "fab fa-fw fa-telegram"
       url: "https://t.me/+R9wfL2gGhjUEtlYX"
     - label: "Email"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:conversemos@partyhack.cl"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
