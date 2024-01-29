@@ -16,6 +16,7 @@ minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "es-CL"
+icono                    : "/assets/images/logo.png"
 title                    : "PARTYHACK"
 title_separator          : "-"
 subtitle                 : "Comunidad de Ciberseguridad de Habla Hispana"
