@@ -111,7 +111,7 @@ es: &DEFAULT_ES
   back_to_top                : "Volver arriba"
 es-ES:
   <<: *DEFAULT_ES
-es-CO:
+es-CL:
   <<: *DEFAULT_ES
 
 # French

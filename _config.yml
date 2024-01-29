@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Quienes Somos"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Somos una comunidad Chilena de Ciberseguridad, enfocada en entregar conocimiento a las personas que lo necesitan, permitiendo el intercambio de conocimiento e información, entre nuestros miembros."
+  location         : "Chile"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -139,7 +139,7 @@ footer:
       icon: "fab fa-fw fab fa-fw fa-linkedin"
       url: "https://cl.linkedin.com/company/partyhack-cl"
     - label: "Youtube"
-      icon: "fab fa-fw fa-youtubr"
+      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCHLBYZ7Sv3jFCiBN3AgMUSA?sub_confirmation=1"
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
