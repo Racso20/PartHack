@@ -63,7 +63,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: $form-background-color;
+  background-color: $background-color;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -76,10 +76,6 @@
   text-decoration: none;
   display: block;
   text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
