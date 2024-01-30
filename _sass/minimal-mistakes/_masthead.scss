@@ -57,12 +57,13 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #00FF00;
+  background-color: red;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  background-color: $form-background-color;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -70,6 +71,7 @@
 
 .dropdown-content a {
   float: none;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -77,13 +79,12 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #00FF00;
+  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .site-logo img {
   max-height: 2rem;
 }
