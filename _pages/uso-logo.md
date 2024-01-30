@@ -27,8 +27,10 @@ Los colores del logo serán blanco, verde y negro, estos colores serán
 Los colores blancos y negros podrán cambiarse de posición de acuerdo con la necesidad con el fin de no alterar el diseño de la persona.
 
 <div style="text-align:center">
+
 ![Fondo Negro](/assets/images/imagen-11.png)
 ![Fondo Blanco](/assets/images/imagen-12.png)
+
 </div>
 
 #### Blanco y Negro
