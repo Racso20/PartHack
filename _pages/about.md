@@ -1,6 +1,7 @@
 ---
 title:  "Misión & Visión"
 permalink: /mision-vision
+show_title: false
 ---
 <style>
 .block-columns
