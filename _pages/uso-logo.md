@@ -26,28 +26,28 @@ Los colores del logo serán blanco, verde y negro, estos colores serán
 
 Los colores blancos y negros podrán cambiarse de posición de acuerdo con la necesidad con el fin de no alterar el diseño de la persona.
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-11.png)
+![Fondo Blanco](/assets/images/imagen-12.png)
 
 #### Blanco y Negro
 
 El logotipo también se puede imprimir en blanco y negro debido a restricciones de presupuesto. Para esto, el color de la redacción y el fondo del logotipo siempre deben invertirse. Es decir, las palabras están en negro y el fondo es blanco o las palabras están en blanco y el fondo es negro.
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-11.png)
+![Fondo Negro](/assets/images/imagen-14.png)
 
 ### Tamaño
 
 El logotipo puede ser de cualquier tamaño, pero debe mantener todos los elementos del logotipo sin distorsiones. Todos los elementos del logotipo deben permanecer legibles
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-11.png)
+![Fondo Negro](/assets/images/imagen-8.png)
 
 ### Espaciado
 
-El logotipo no debe superponerse y ser completamente prominente. Debe haber suficiente espacio entre el logotipo y cualquier otro texto u objeto con el objetivo de diferenciar ambos logos y objeto, como recomendación pedimos un espacio de 0.3 centímetros aproximado.
+El logotipo no debe superponerse y ser completamente prominente. Debe haber suficiente espacio entre el logotipo y cualquier otro texto u objeto con el objetivo de diferenciar ambos logos y objeto, como **recomendación** se debe generar un espacio de 0.3 centímetros aproximado.
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-9.png)
 
 ### Elementos
 
@@ -57,18 +57,18 @@ Todos los elementos deben permanecer en su forma original. Todos los elementos d
 
 El logotipo debe presentarse en su forma horizontal y no debe mostrarse en otros ángulos que no sean su diseño horizontal.
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-11.png)
+![Fondo Negro](/assets/images/imagen-16.png)
 
 ## Logos Principales
 
 Los logos principales de <P4RTY/H4CK> fueron credos para ser utilizados en los distintos fondos y escenarios que se puedan manejar, ya sea para una presentación, portada, página web, etc.
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-11.png)![Fondo Negro](/assets/images/imagen-12.png)
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-13.png)![Fondo Negro](/assets/images/imagen-14.png)
+
+
 
 ## Logos Secundarios y Disminuidos
 
@@ -78,11 +78,10 @@ Son aquellos logos, autorizados por la directiva, que utiliza la comunidad para 
 
 El icono de <P4RTY/H4CK> es un la Y, con su Font correspondiente y sobre la Y un círculo verde, el cual representa a un miembro de nuestra comunidad. La Y será únicamente de color blanco y el circulo en verde en su diseño original, adicional Se puede utilizar otras tres variante como muestran las siguientes imagenes
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-18.png)![Fondo Negro](/assets/images/imagen-19.png)
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![Fondo Negro](/assets/images/imagen-17.png)![Fondo Negro](/assets/images/imagen-20.png)
+
 
 ### Logos Secundarios
 
@@ -90,7 +89,7 @@ El icono de <P4RTY/H4CK> es un la Y, con su Font correspondiente y sobre la Y un
 
 Partyhack tendrá su para participar en los CTF. Si la comunidad participa solo con un grupo, esta deberá utilizar el logo principal de la comunidad y llevará el nombre «P4RTYH4CK». Cuando hubiesen más de un grupo, tanto el nombre como el logo deberá ser presentado por el capitán del equipo al director de la comunidad que esté a cargo de los CTF, y el nombre como el logo deberá ser alusivos a Partyhack.
 
-![Colores](/assets/images/imagen.jpg)![Filtrado](/assets/images/imagen.jpg)
+![CTF](/assets/images/ctf.png)
 
 ## Logos Colaboración
 
