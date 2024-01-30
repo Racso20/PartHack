@@ -7,9 +7,9 @@ main:
         - title: "Misión - Visión"
           url: "/mision-vision"
         - title: "Nosotros"
-          url: "#"
+          url: "/nosotros"
         - title: "Nuestro Logo"
-          url: "#"
+          url: "/uso-logo"
   - title: "Articulos"
     children:
         - title: "Ciberseguridad"
