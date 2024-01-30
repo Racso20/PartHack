@@ -9,7 +9,6 @@
 {%- if page.title -%}
   {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
 {%- endif -%}
-{{ site.icono }}
 {%- if site.icono -%}
   <link rel='shortcut icon' href='{{ site.icono }}'>
 {%- endif -%}
