@@ -296,7 +296,6 @@ defaults:
       type: pages
     values:
       layout: single
-      title : false
       author_profile: false
       related: true
   

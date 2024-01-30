@@ -5,7 +5,7 @@ main:
   - title: "Quienes Somos"
     children:
         - title: "Misión - Visión"
-          url: "/mision-vision/"
+          url: "/mision-vision"
         - title: "Nosotros"
           url: "#"
         - title: "Nuestro Logo"
