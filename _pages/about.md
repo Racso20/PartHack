@@ -3,13 +3,13 @@ title:  "Misión & Visión"
 permalink: /mision-vision
 ---
 <style>
-block-columns
+.block-columns
 {
   display: flex;
   margin-bottom: 1.75em;
   box-sizing: border-box;
 }
-block-column
+.block-column
 {
   flex-grow: 1;
   min-width: 0;
