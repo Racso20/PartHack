@@ -27,7 +27,9 @@ main:
   - title: "Alianzas"
     url: "#"
     children:
-        - title: "Misión - Visión"
+        - title: "Comunidades Amigas"
+          url: "#"
+        - title: "Sponsor"
           url: "#"
   - title: "Contactos"
     url: "#"
