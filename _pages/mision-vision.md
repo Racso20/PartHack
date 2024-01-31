@@ -3,21 +3,6 @@ title:  "Misión & Visión"
 permalink: /mision-vision
 show_title: false
 ---
-<style>
-.block-columns
-{
-  display: flex;
-  margin-bottom: 1.75em;
-  box-sizing: border-box;
-}
-.block-column
-{
-  flex-grow: 1;
-  min-width: 0;
-  word-break: break-word;
-  overflow-wrap: break-word;
-}
-</style>
 
 <div class="block-columns">
 	<div class="block-column" style="width: 50%; padding:15px">

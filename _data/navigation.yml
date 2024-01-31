@@ -27,7 +27,7 @@ main:
   - title: "Alianzas"
     children:
         - title: "Comunidades Amigas"
-          url: "#"
+          url: "/comunidades"
         - title: "Sponsor"
           url: "#"
   - title: "Contactos"

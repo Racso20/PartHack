@@ -29,3 +29,17 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
+
+.block-columns
+{
+  display: flex;
+  margin-bottom: 1.75em;
+  box-sizing: border-box;
+}
+.block-column
+{
+  flex-grow: 1;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
