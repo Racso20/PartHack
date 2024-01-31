@@ -42,8 +42,10 @@
 
 
 .dropdown {
-  float: left;
   overflow: hidden;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 1em;
 }
 
 .dropdown .dropbtn {
@@ -78,12 +80,14 @@
   display: block;
   text-align: left;
 }
+
 nav {
 	font-size:20px
 }
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .site-logo img {
   max-height: 2rem;
 }
