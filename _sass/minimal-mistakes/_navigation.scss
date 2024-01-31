@@ -179,22 +179,6 @@
   min-height: $nav-height;
   background: $nav-background-color;
   
-  .dropdown {
-	overflow: hidden;
-	margin: 0 1rem;
-	font-size: 1em;
-	
-	.dropbtn {
-		font-size: 16px;  
-		border: none;
-		outline: none;
-		color: white;
-		padding: 14px 16px;
-		background-color: inherit;
-		font-family: inherit;
-		margin: 0;
-	}
-  }
   a {
     display: block;
     margin: 0 1rem;
@@ -243,7 +227,24 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
-
+	
+	.dropdown {
+		overflow: hidden;
+		margin: 0 1rem;
+		font-size: 1em;
+	
+		.dropbtn {
+			font-size: 16px;  
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+		}
+	}
+  
     li {
       -webkit-box-flex: 0;
       -ms-flex: none;
