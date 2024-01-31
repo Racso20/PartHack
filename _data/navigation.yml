@@ -25,7 +25,6 @@ main:
   - title: "Eventos"
     url: "#"
   - title: "Alianzas"
-    url: "#"
     children:
         - title: "Comunidades Amigas"
           url: "#"

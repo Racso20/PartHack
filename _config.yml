@@ -21,7 +21,7 @@ title                    : "PARTYHACK"
 title_separator          : "-"
 subtitle                 : "Comunidad de Ciberseguridad de Habla Hispana"
 name                     : ""
-description              : "Somos una comunidad Chilena de Ciberseguridad, enfocada en entregar conocimiento a las personas que lo necesitan, permitiendo el intercambio de conocimiento e información, entre nuestros miembros.."
+description              : "Somos una comunidad Chilena de Ciberseguridad, enfocada en entregar conocimiento a las personas que lo necesitan, permitiendo el intercambio de conocimiento e información, entre nuestros miembros."
 url                      : "https://partyhack.cl" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -291,7 +291,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: splash
+      layout: single
       author_profile: false
       read_time: true
       comments: # true
@@ -302,7 +302,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: splash
+      layout: single
       author_profile: false
       related: true
   
