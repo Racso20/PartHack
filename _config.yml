@@ -136,20 +136,26 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/party_hack"
+      show_label: false
     - label: "Linkedin"
       icon: "fab fa-fw fab fa-fw fa-linkedin"
       url: "https://cl.linkedin.com/company/partyhack-cl"
+      show_label: false
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCHLBYZ7Sv3jFCiBN3AgMUSA?sub_confirmation=1"
+      show_label: false
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://t.me/+R9wfL2gGhjUEtlYX"
+      show_label: false
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:conversemos@partyhack.cl"
+      show_label: false
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
+      # show_label: false
       # url:
 
 
