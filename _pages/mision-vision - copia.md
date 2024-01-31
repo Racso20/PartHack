@@ -11,6 +11,10 @@ show_title: true
 		<p>Arquitecto TI</p>
 	</div>
 	<div class="block-column" style="width: 50%; padding:15px">
-		<p class="has-text-align-justify">Esperamos ser una comunidad que permita que las generaciones futuras puedan crecer tanto en lo profesional como en lo valórico.</p>
+		<p class="has-text-align-justify">
+			<ul>
+				<li>Comunidad: Arquitecto TI</li>
+			</ul>
+		</p>
 	</div>
 </div>
