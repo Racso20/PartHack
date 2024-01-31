@@ -292,7 +292,25 @@
     &.hidden {
       display: none;
     }
-
+	
+	.dropdown {
+		overflow: hidden;
+		margin: 0;
+		padding: 10px 20px;
+		font-size: $type-size-5;
+	
+		.dropbtn {
+			font-size: 16px;  
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+		}
+	}
+	
     a {
       margin: 0;
       padding: 10px 20px;
