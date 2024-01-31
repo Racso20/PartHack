@@ -60,6 +60,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
+  show_label             : false
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -298,7 +299,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: ""
+      path: "/mision-vision/"
       type: pages
     values:
       layout: single
