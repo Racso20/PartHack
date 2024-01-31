@@ -291,7 +291,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: false
       read_time: true
       comments: # true
@@ -302,7 +302,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: false
       related: true
   
