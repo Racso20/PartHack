@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  background-color: $nav-color;
+  background-color: $nav-background-color;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -64,7 +64,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: $background-color;
+  background-color: $nav-background-color;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
