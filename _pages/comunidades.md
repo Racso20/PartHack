@@ -5,7 +5,7 @@ permalink: /comunidades
 
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img style="border-radius:99999;" "src="/assets/images/arquitectoti.jpg" />
+		<img style="border-radius:99999;" src="/assets/images/arquitectoti.jpg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
