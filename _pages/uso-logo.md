@@ -1,7 +1,6 @@
 ---
 title:  "Uso de Logo"
 permalink: /uso-logo
-show_title: true
 ---
 Este documento es un conjunto de herramientas en la construcción de materiales que promoverán la imagen de la Comunidad P4RTY/H4CK en todo el mundo.
 

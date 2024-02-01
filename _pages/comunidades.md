@@ -1,12 +1,11 @@
 ---
 title:  "Comunidades Amigas"
 permalink: /comunidades
-show_title: true
 ---
 
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		Arquitecto TI
+		<img style="border-radius:99999; "src="/assets/images/arquitectoti.jpg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -16,7 +15,7 @@ show_title: true
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		HACKADA
+		<img src="/assets/images/hackada.jpg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -27,7 +26,7 @@ show_title: true
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		HACKADA
+		<img src="/assets/images/lesand.png" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -38,7 +37,18 @@ show_title: true
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		HACKADA
+		<img src="/assets/images/level0sec.png" />
+	</div>
+	<div class="block-column" style="width: 50%;">
+		<ul>
+			<li>Comunidad: Sochisi</li>
+			<li>Web: https://level0sec.cl/</li>
+		</ul>
+	</div>
+</div>
+<div class="block-columns">
+	<div class="block-column" style="width: 50%;">
+		<img src="/assets/images/sochisi.jpg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -49,7 +59,7 @@ show_title: true
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		HACKADA
+		<img src="/assets/images/sombreroblanco.png" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
