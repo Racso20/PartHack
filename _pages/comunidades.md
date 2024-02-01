@@ -15,7 +15,7 @@ permalink: /comunidades
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img src="/assets/images/hackada.jpg" />
+		<img src="/assets/images/hackada.jpeg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -41,7 +41,7 @@ permalink: /comunidades
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
-			<li>Comunidad: Sochisi</li>
+			<li>Comunidad: Level[0]Sec</li>
 			<li>Web: https://level0sec.cl/</li>
 		</ul>
 	</div>
