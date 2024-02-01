@@ -1,9 +1,7 @@
 {% assign document = post | default: page %}
 {% if document.read_time or document.show_date %}
   <p class="page__meta">
-	{% if document.title %}
-	<h1>{{ document.title }}</h1>
-	{% endif %}
+	
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">
