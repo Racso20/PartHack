@@ -29,6 +29,6 @@ main:
         - title: "Comunidades Amigas"
           url: "/comunidades"
         - title: "Sponsor"
-          url: "#"
+          url: "/sponsor"
   - title: "Contactos"
     url: "#"
