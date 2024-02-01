@@ -5,7 +5,7 @@ permalink: /comunidades
 
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img style="border-radius:99999;" src="/assets/images/arquitectoti.jpg" />
+		<img style="max-width:189px;border-radius:99999px;" src="/assets/images/arquitectoti.jpg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -15,7 +15,7 @@ permalink: /comunidades
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img src="/assets/images/hackada.jpeg" />
+		<img style="max-width:189px;" src="/assets/images/hackada.jpeg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -26,7 +26,7 @@ permalink: /comunidades
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img src="/assets/images/lesand.png" />
+		<img style="max-width:189px;" src="/assets/images/lesand.png" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -37,7 +37,7 @@ permalink: /comunidades
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img src="/assets/images/level0sec.png" />
+		<img style="max-width:189px;" src="/assets/images/level0sec.png" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -48,7 +48,7 @@ permalink: /comunidades
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img src="/assets/images/sochisi.jpg" />
+		<img style="max-width:189px;" src="/assets/images/sochisi.jpg" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
@@ -59,7 +59,7 @@ permalink: /comunidades
 </div>
 <div class="block-columns">
 	<div class="block-column" style="width: 50%;">
-		<img src="/assets/images/sombreroblanco.png" />
+		<img style="max-width:189px;" src="/assets/images/sombreroblanco.png" />
 	</div>
 	<div class="block-column" style="width: 50%;">
 		<ul>
