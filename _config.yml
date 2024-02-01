@@ -292,6 +292,7 @@ defaults:
       type: posts
     values:
       layout: single
+      show_title: true
       author_profile: false
       read_time: true
       comments: # true
@@ -305,5 +306,6 @@ defaults:
       layout: single
       author_profile: false
       related: true
+      show_title: true
   
   
