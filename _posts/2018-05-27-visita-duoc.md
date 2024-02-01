@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Visita DUOC UC aipu"
 author: "PartyHack"
 ---
