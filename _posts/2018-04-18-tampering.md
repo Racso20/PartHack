@@ -50,9 +50,11 @@ Finalmente, las contra medidas, uffff tarea ardua, ya que es necesario tener un 
 Finalmente utiliza canales seguros para realizar las peticiones del usuario al servidor y viceversa.
 
 Finalmente les dejo algunas referencias de controles proactivos que nos  propone el proyecto OWASP:
+
 https://www.owasp.org/index.php/OWASP_Proactive_Controls
 
 Saludos a todos y en especial a los miembros de la comunidad @P4rtyH4ck!
 
 **“Quemen pestañas, aplasten los dedos, fundan el cerebro y piensen como delincuentes”**
+
 https://www.linkedin.com/in/pramirezh/ 
