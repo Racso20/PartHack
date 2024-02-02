@@ -1,6 +1,8 @@
 ---
 title: "Tampering, utilización y contramedidas"
 author: "Nitr0X"
+header: 
+  teaser: "/assets/images/tampering.png"
 ---
 
 En mi primera entrada en el blog de PartyHack! escribiré sobre esta técnica que me ha dado muy buenos resultados realizando ataques manuales a aplicativos web, si bien es cierto puede ser utilizada en distintos escenarios de pentesting, hoy solo lo enfocaré a aplicativos web. Espero sea de su interés y los ayude en sus tareas de detección y explotación de bug’s.
