@@ -1,13 +1,5 @@
 {% assign document = post | default: page %}
 {% if document.read_time or document.show_date %}
-
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-
   <p class="page__meta">
 	
     {% if document.show_date and document.date %}
@@ -35,9 +27,5 @@
         {% endif %}
       </span>
     {% endif %}
-	{{ post.header.teaser }}
   </p>
-  <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
-      </div>
 {% endif %}
