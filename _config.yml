@@ -293,7 +293,7 @@ defaults:
     values:
       layout: single
       show_title: true
-      show_teaser: true
+      show_teaser: false
       author_profile: false
       read_time: true
       comments: # true
