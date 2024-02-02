@@ -293,6 +293,7 @@ defaults:
     values:
       layout: single
       show_title: true
+      show_teaser: true
       author_profile: false
       read_time: true
       comments: # true
@@ -307,5 +308,6 @@ defaults:
       author_profile: false
       related: true
       show_title: true
+      show_teaser: false
   
   

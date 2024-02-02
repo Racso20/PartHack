@@ -38,15 +38,19 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
 		  {% if page.show_title %}
-			{% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
+			{% if page.title %}
+			  <h1 id="page-title" class="page__title p-name" itemprop="headline">
 				<a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-			</h1>{% endif %}
+			  </h1>
+			{% endif %}
 		  {% endif %}
           {% include page__meta.html %}
         </header>
-		<div style="text-align: center;">
-          <img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
-        </div>
+		{% if page.show_teaser %}
+		  <div style="text-align: center;">
+            <img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
+		  </div>
+		{% endif %}
       {% endunless %}
 
       <section class="page__content e-content" itemprop="text">
