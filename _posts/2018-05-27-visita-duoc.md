@@ -1,6 +1,8 @@
 ---
 title: "Visita DUOC UC aipu"
 author: "PartyHack"
+header: 
+  teaser: "/assets/images/duocuc.png"
 ---
 
 Queremos expresar nuestro más profundo agradecimiento a Duoc  UC Sede Maipú, por la invitación que se extendido a nuestra comunidad, y junto con eso agradecer la presencia de cada uno de los estudiantes de dicha institución a la cual muchos de nosotros también pertenecimos alguna vez.
