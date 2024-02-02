@@ -44,7 +44,9 @@ layout: default
 		  {% endif %}
           {% include page__meta.html %}
         </header>
-		{{ teaser }}
+		<div class="archive__item-teaser">
+          <img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
+        </div>
       {% endunless %}
 
       <section class="page__content e-content" itemprop="text">
