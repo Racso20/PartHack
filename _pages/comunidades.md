@@ -33,7 +33,7 @@ permalink: /comunidades
 		<div class="block-column" style="width: 50%;text-align: left;">
 			<ul>
 				<li>Comunidad: Lesand</li>
-				<li>Web: https://level0sec.cl</li>
+				<li>Web: https://www.lesand.cl/</li>
 			</ul>
 		</div>
 	</div>
