@@ -2,7 +2,7 @@
 title: "Diplomado de Seguridad Ofensiva con Metodología DragonJAR"
 author: "Felipe Castañeda"
 header: 
-  teaser: "/assets/images/duocuc.png"
+  teaser: "/assets/images/Dragonjar.png"
 ---
 
 De Donde Nace el Diplomado de Seguridad Ofensiva de DragonJAR?
@@ -17,19 +17,36 @@ Si bien el curso está pensado para personas que trabajan en el rubro TIC, la fo
 
 ¿Pero quienes son ellos?
 
-IMAGEN
+<div style="text-align:center;width: 35rem;margin: auto;">
+	<div class="block-columns">
+		<div class="block-column" style="width: 25%;text-align: center;">
+			<img style="max-width:189px;border-radius:99999px;" src="/assets/images/jaimerestrepo.png" />
+		</div>
+		<div class="block-column" style="width: 75%;text-align: left;">
+			Jaime Andrés Restrepo (@DragonJAR)
+			
+			Ingeniero en Sistemas y Telecomunicaciones de la Universidad de Manizales. Consultor Independiente de Seguridad Informática con más de 15 años de experiencias en Ethical Hacking, Pen Testing y Análisis Forense Digital. Creador de La Comunidad DragonJAR, una de las comunidades de seguridad informática más grandes de habla hispana y referente en el sector.
+		</div>
+	</div>
+	<div class="block-columns">
+		<div class="block-column" style="width: 75%;text-align: center;">
+			Jacobo Tibaquirá (@JJTibaquira)
+			
+			Ingeniero en Sistemas y Telecomunicaciones con especialidad en Sistemas de Información Geográfica de la Universidad de Manizales. Consultor Independiente de Seguridad Informática con más de 6 años de experiencias en Ethical Hacking y Desarrollo Seguro, Miembro Fundador de La Comunidad DragonJAR, una de las comunidades de seguridad informática más grandes de habla hispana y referente en el sector.
+		</div>
+		<div class="block-column" style="width: 25%;text-align: left;">
+			<img style="max-width:189px;" src="/assets/images/jacobo-tibiquira.png" />
+		</div>
+	</div>
+</div>
 
 
-Jaime Andrés Restrepo (@DragonJAR)
-
-Ingeniero en Sistemas y Telecomunicaciones de la Universidad de Manizales. Consultor Independiente de Seguridad Informática con más de 15 años de experiencias en Ethical Hacking, Pen Testing y Análisis Forense Digital. Creador de La Comunidad DragonJAR, una de las comunidades de seguridad informática más grandes de habla hispana y referente en el sector.
 
 
 
 
-Jacobo Tibaquirá (@JJTibaquira)
 
-Ingeniero en Sistemas y Telecomunicaciones con especialidad en Sistemas de Información Geográfica de la Universidad de Manizales. Consultor Independiente de Seguridad Informática con más de 6 años de experiencias en Ethical Hacking y Desarrollo Seguro, Miembro Fundador de La Comunidad DragonJAR, una de las comunidades de seguridad informática más grandes de habla hispana y referente en el sector.
+
 
 [IMAGES]
 
