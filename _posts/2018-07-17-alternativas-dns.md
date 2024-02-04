@@ -23,10 +23,12 @@ Para los desarrolladores o profesionales de las TIC, entendemos lo importante qu
 
 Sí le interesa medir la velocidad de carga de los sitios antes  y después de este cambio de DNS, puedes probar:
 
-1.- [Speedtest por Ookla](https://speedtest.net){:target="_blank"}
-2.- [Fast.com](https://fast.com/es/){:target="_blank"}
-3.- [Test Velocidad](https://www.testdevelocidad.es/){:target="_blank"}
+1. [Speedtest por Ookla](https://speedtest.net){:target="_blank"}
+2. [Fast.com](https://fast.com/es/){:target="_blank"}
+3. [Test Velocidad](https://www.testdevelocidad.es/){:target="_blank"}
 
-```Fuente:```
-```[Blog del Ciso](https://blogdelciso.com/lista-de-dns-alternativos-con-algunas-mejoras/){:target="_blank"}```
+```
+	Fuente:
+	https://blogdelciso.com/lista-de-dns-alternativos-con-algunas-mejoras/
+```
 
