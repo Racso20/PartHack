@@ -1,5 +1,5 @@
 ---
-title: "MISP (Malware Information Sharing Platform & Threat Sharing)"
+title: "Diplomado de Seguridad Ofensiva con Metodología DragonJAR"
 author: "Felipe Castañeda"
 header: 
   teaser: "/assets/images/duocuc.png"
