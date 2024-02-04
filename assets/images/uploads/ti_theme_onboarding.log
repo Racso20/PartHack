@@ -1,0 +1,26 @@
+[20/Sep/2021:00:49:04] (I): WordPress Instance Info:
+[20/Sep/2021:00:49:04] (I): Home URL : https://partyhack.cl
+[20/Sep/2021:00:49:04] (I): Site URL : https://partyhack.cl
+[20/Sep/2021:00:49:04] (I): WordPress Version : 5.8.1
+[20/Sep/2021:00:49:04] (I): Onboarding Version : 1.1.17
+[20/Sep/2021:00:49:04] (I): Multisite : No
+[20/Sep/2021:00:49:04] (I): Server Info : Apache
+[20/Sep/2021:00:49:04] (I): PHP Version : 7.4.22
+[20/Sep/2021:00:49:04] (I): HTTPS : Yes
+[20/Sep/2021:00:49:04] (I): PHP Max Execution Time : 360
+[20/Sep/2021:00:49:04] (I): PHP Max Input Vars : 1000
+[20/Sep/2021:00:49:04] (I): Max Upload Size : 8388608
+[20/Sep/2021:00:49:04] (I): Plugins:
+[20/Sep/2021:00:49:04] (I): [PLUGIN] EditorsKit : v1.31.6 (Extendify)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Easy Twitter Feed Widget : v0.9 (DesignOrbital.com)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Font Awesome : v4.0.4 (Font Awesome)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] HTTP Headers : v1.18.5 (Dimitar Ivanov)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Insert Pages : v3.6.1 (Paul Ryan)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Smart Post Show (formerly Post Carousel) : v2.3.6 (ShapedPlugin)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Templates Patterns Collection : v1.1.17 (ThemeIsle)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] The Events Calendar : v5.9.1 (The Events Calendar)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Twitter : v2.0.5 (Twitter)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Under Construction : v3.89 (WebFactory Ltd)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Use Any Font : v6.1.6 (Dnesscarkey)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] Wordfence Security : v7.5.5 (Wordfence)
+[20/Sep/2021:00:49:04] (I): [PLUGIN] WPForms Lite : v1.6.9 (WPForms)

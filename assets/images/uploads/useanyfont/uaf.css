@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'partyhack';
+					src: url('/wp-content/uploads/useanyfont/2861Partyhack.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2861Partyhack.woff') format('woff');
+					font-display: auto;
+				}
+
+				.partyhack{font-family: 'partyhack' !important;}
+
+						h1, h2, h3, h4, h5, h6, .site-title{
+					font-family: 'partyhack' !important;
+				}
+		

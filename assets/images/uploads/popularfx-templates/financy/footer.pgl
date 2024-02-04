@@ -1,0 +1,61 @@
+[pl_row pagelayer-id="RF5ie8vSOkqovwtW"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_type="color" ele_bg_color="#bae4faff" ele_padding="60px,0px,40px,0px" ele_padding_mobile="20px,0px,20px,0px" ele_padding_tablet="30px,0px,30px,0px" ele_bg_attachment="scroll" ele_bg_posx="left" ele_bg_posy="center" ele_bg_repeat="no-repeat" ele_bg_size="cover" overlay_transperancy="0.8" overlay_color="" ele_bg_img="http://sitepad.local/site-data/plugins/pagelayer-pro/images/default-image.png"]
+[pl_col pagelayer-id="8MsqGLBvIQtYWmvM"  widget_space="15" overlay_hover_delay="400" col_width_mobile="100" col_width_tablet="30" col="3" ele_padding_mobile="15px,0px,0px,0px"]
+[pl_heading pagelayer-id="uyDbEltt5HMRTXbf"  heading_state="normal" color="#171515ff" heading_typo=",28,,600,,,Solid,,,," heading_typo_mobile=",25,,,,,Solid,,,,"]
+
+About[/pl_heading]
+[pl_text pagelayer-id="vHfHpA0P4hcsQ5sW"  ele_padding="0px,0px,0px,0px"]
+
+<p>Proin diam justo, scelerisque non felis porta, placerat vestibulum nisi. Vestibulum ac elementum massa. In rutrum quis risus quis sollicitudin. Pellentesque non eros ante.</p>[/pl_text]
+[pl_share_grp pagelayer-id="7R0jDBdEKHT2QOS6"  type="icon" bg_shape="pagelayer-social-shape-circle" align="left" vspace="2" hspace="2" height="35" icon_size="18" icon_space="10" color_scheme="" icon_color="#2a83f9ff" social_hover_delay="400" name_typo=",15,,,,,solid,,,," icon_bg_color="#fbfbfbff" align_tablet="left" align_mobile="left" social_hover="hover" icon_bg_color_hover="#2a83f9ff" icon_color_hover="#fcfcfcff"]
+[pl_share pagelayer-id="1Ag7I0j2K3ytePxe"  icon="fab fa-facebook-f"]
+[/pl_share]
+[pl_share pagelayer-id="PTbJ5C3QHIC56dds"  icon="fab fa-twitter"]
+[/pl_share]
+[pl_share pagelayer-id="RBF6sORlQ2ntvIEn"  icon="fab fa-google-plus-g"]
+[/pl_share]
+[pl_share pagelayer-id="Hwg68VNBw6AKicoT"  icon="fab fa-instagram"]
+[/pl_share]
+[/pl_share_grp]
+[/pl_col]
+[pl_col pagelayer-id="u3TezeS6DKQQJfaK"  widget_space="15" overlay_hover_delay="400" col_width_mobile="100" col_width_tablet="20" col="2" ele_padding_tablet="1em,0em,1em,0em" ele_padding_mobile="15px,0px,0px,0px"]
+[pl_heading pagelayer-id="2N8OZ8dfjpMwUKCH"  heading_state="normal" color="#161414ff" heading_typo=",24,,600,,,Solid,,,," heading_typo_mobile=",25,,,,,Solid,,,,"]
+
+
+
+
+
+
+
+
+Quick Links[/pl_heading]
+[pl_wp_menu pagelayer-id="tR023QQWHPJp12TU"  nav_list="268" align="left" layout="vertical" pointer="" m_animation="slide" list_style="none" submenu_ind="caret-down" menu_bg_color_hover="#00ccff00" menu_bg_color_active="" horizontal_padding="0" vertical_padding="0" submenu_color="#ffffff" submenu_bg_color="#0986c0" submenu_horizontal_padding="10" submenu_vertical_padding="10" submenu_left_margin="10" menu_toggle_align="center" menu_toggle_bg_color="#0986c050" menu_toggle_size="30" slide_style="pagelayer-wp_menu-right" menu_width="30" menu_items_width="100" menu_posy="8" menu_bg="color" close_size="25" close_padding="8" close_color="#ffffff68" close_bg_color="#00000036" close_hover_delay="600" close_color_hover="#ffffff" close_bg_color_hover="#000000" submenu_position="left" menu_items_bg="#ffffff" menu_color="#121212ff"]
+[/pl_wp_menu]
+[/pl_col]
+[pl_col pagelayer-id="fw7tUeCb1gWLigqn"  widget_space="15" overlay_hover_delay="400" col_width_mobile="100" col_width_tablet="20" col="3" ele_padding_tablet="1em,0em,0em,0em"]
+[pl_heading pagelayer-id="mOgbVtzHVsoT9zAL"  heading_state="normal" color="#201b1bff" heading_typo=",24,,600,,,Solid,,,," heading_typo_mobile=",25,,,,,Solid,,,,"]
+
+
+
+
+
+Contact Us[/pl_heading]
+[pl_address pagelayer-id="gn6kcuFT1WaSIK1u"  icon="fas fa-map-marker-alt" color="#141212ff" space="15" icon_color="#0c0d0dff"]
+[/pl_address]
+[pl_phone pagelayer-id="mJglHFzYTFgqaT3l"  icon="fas fa-phone-alt" color="#161414ff" space="15" icon_color="#121010ff"]
+[/pl_phone]
+[pl_email pagelayer-id="jomH9ZbjJK73WIT8"  icon="fas fa-envelope" color="#131111ff" space="15" icon_color="#151414ff"]
+[/pl_email]
+[pl_iconbox pagelayer-id="msOfAmBN1cKWO39B"  service_icon="fas fa-fax" service_alignment="left" service_vertical_alignment="top" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#0c0b0bff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="1234567890" heading_alignment="left" service_title_spacing="0,0,10,15" heading_state="normal" service_heading_color="#0d0c0cff" service_heading_typo=",16,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" ele_padding_tablet="0px,0px,0px,0px"]
+
+
+
+
+[/pl_iconbox]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="wseAiMNlJWFe6oiV"  stretch="auto" col_gap="20" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_type="color" ele_bg_color="#2a83f9ff" content_pos="center"]
+[pl_col pagelayer-id="Lhi4AtqQpu4VvnYP"  widget_space="15" overlay_hover_delay="400" col_width_mobile="100" col_width_tablet="50" col="6" content_pos="center"]
+[pl_copyright pagelayer-id="tbzXlenuCZ8ja1ww"  align="center" color="#fafafaff" align_mobile="center"]
+[/pl_copyright]
+[/pl_col]
+[/pl_row]

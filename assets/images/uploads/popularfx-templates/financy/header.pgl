@@ -1,0 +1,16 @@
+[pl_row pagelayer-id="Oyw22qinjNVUM6tP"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_type="" ele_bg_color="" content_pos="center" ele_padding_mobile="10px,10px,10px,10px" ele_padding_tablet="5px,5px,5px,5px" ele_zindex="9"]
+[pl_col pagelayer-id="dOHttUdwDDcxXHVS"  widget_space="15" overlay_hover_delay="400" col_width="30" col_width_mobile="50" col_width_tablet="50" ele_padding_mobile="0px,0px,0px,0px"]
+[pl_wp_title pagelayer-id="EpnPEhAAfPtt57u9"  site_name="Financy" site_title_state="normal" text-align="left" logo_img_size="custom" align="left" vertical_align="middle" logo_img_type="custom-logo" site_title_style=",35,,700,,,Solid,,Uppercase,3," title_color="#2a83f9ff" logo_img_custom_size="25" title_padding="0,0,0,10" site_title_style_mobile=",30,,,,,Solid,,,," site_title_style_tablet=",35,,,,,Solid,,,," logo_img_custom_size_tablet="20" logo_img="{{theme_url}}/images/logo.png" ele_padding_mobile="0px,0px,0px,0px" site_logo="true" logo_img_custom_size_mobile="35"]
+[/pl_wp_title]
+[/pl_col]
+[pl_col pagelayer-id="dMfg7lDzbtHDHSWD"  widget_space="15" overlay_hover_delay="400" col_width="70" col_width_mobile="50" col_width_tablet="50"]
+[pl_wp_menu pagelayer-id="7aJLSWpUPFZaiT7w"  nav_list="13" align="right" layout="horizontal" pointer="background" m_animation="slide" list_style="none" submenu_ind="caret-down" menu_bg_color_hover="" menu_bg_color_active="" horizontal_padding="30" vertical_padding="10" submenu_color="#ffffff" submenu_bg_color="#0986c0" submenu_horizontal_padding="10" submenu_vertical_padding="10" submenu_left_margin="10" menu_toggle_align="center" menu_toggle_bg_color="#2a83f9ff" menu_toggle_size="30" slide_style="pagelayer-wp_menu-right" menu_width="30" menu_items_width="100" menu_posy="8" menu_bg="color" close_size="25" close_padding="8" close_color="#2a83f9ff" close_bg_color="#f9f9f8ff" close_hover_delay="600" close_color_hover="#fcfcfcff" close_bg_color_hover="#2a83f9ff" submenu_position="left" menu_items_bg="#11100eff" menu_color="" menu_bg_color="" menu_typo=",16,,600,,,Solid,,,," menu_color_hover="#2a83f9ff" menu_color_active="#2a83f9ff" drop_breakpoint="tablet" menu_toggle_color="#ffffffff" menu_toggle_size_mobile="19" menu_toggle_padding_mobile="9" menu_toggle_align_mobile="right" menu_width_mobile="60" menu_color_mobile="#ffffffff" menu_color_hover_mobile="#ffffffff" menu_color_active_mobile="#ffffffff" menu_toggle_align_tablet="right" menu_width_tablet="60" menu_color_tablet="#ffffffff" menu_color_hover_tablet="#2a83f9ff" menu_color_active_tablet="#2a83f9ff" menu_toggle_size_tablet="24" menu_toggle_padding_tablet="10" ele_css="{{element}} .pagelayer-wp_menu-ul a {
+ justify-content: unset !important; }
+@media screen and (max-width: 768px){
+.pagelayer-menu-type-dropdown .pagelayer-wp_menu-ul{
+margin-top: 60px;
+}
+}" close_state="hover" close_padding_mobile="NaN" menu_colors="active"]
+[/pl_wp_menu]
+[/pl_col]
+[/pl_row]
