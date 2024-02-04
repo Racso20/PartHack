@@ -30,6 +30,4 @@ Guía de instalación [http://www.scrolloutf1.com/deploy/install](http://www.scr
 
 Guía de configuración [http://www.scrolloutf1.com/deploy/configure](http://www.scrolloutf1.com/deploy/configure){:target="_blank"}
 
-![]()
-
-![]()
+![ScrollUP 1](/assets/images/post/2018/scrollup1.png)
