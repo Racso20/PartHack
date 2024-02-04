@@ -2,7 +2,7 @@
 title: "Herramienta gratuita para buscar vulnerabilidades con OpenVAS en KaliLinux"
 author: "PartyHack"
 header: 
-  teaser: "/assets/images/duocuc.png"
+  teaser: "/assets/images/openvas.png"
 ---
 	
 
@@ -12,7 +12,7 @@ Kali incluye cientos de herramientas que han sido enfocadas para llevar a cabo t
 
 Kali Linux esta disponible para su descarga en el siguiente enlace:
 
-[IMAGES]
+![Kali Linux](/assets/images/kali-linux.jpg)
 
 Aprenderemos a instalar OpenVAS en Kali Linux y de este modo añadir una herramienta mas de vulnerabilidades y análisis de amenazas.
 
@@ -23,7 +23,7 @@ Esta aplicación esta incluida dentro de la solución de gestión de vulnerabili
 
 OpenVAS es gratuito ya que está bajo la Licencia Pública General de GNU (GNU GPL). A nivel de arquitectura, OpenVAS ejecuta de manera eficaz las Pruebas de vulnerabilidad de red (NVT) con una estructura similar a esta:
 
-[IMAGES]
+![OpenVas 1](/assets/images/openvas1.png)
 
 OpenVAS Manager es el servicio central que permite la consolidación del escaneo de vulnerabilidades ofreciendo una solución completa a nivel de administración de vulnerabilidades. Este Manager se encarga de controlar el escáner mediante OTP (OpenVAS Transfer Protocol) y ofrece el OpenVAS Management Protocol (OMP) basado en XML.
 
@@ -57,58 +57,59 @@ A continuación, veremos el proceso de instalación de OpenVAS en Kali Linux.
 
 En primer lugar, será necesario actualizar todos los paquetes del sistema, para ello ejecutaremos la siguiente línea:
 
-	apt-get update && apt-get dist-upgrade -y
+	```apt-get update && apt-get dist-upgrade -y```
 
 1. Instalación de OpenVAS
 
-[IMAGES]
+	![OpenVas 2](/assets/images/openvas2.png)
 
 2. Una vez actualizado el sistema, el siguiente paso es proceder con la instalación de OpenVAS, para ello debemos ejecutar el siguiente comando:
 
-	apt-get install openvas
+	```apt-get install openvas```
 
-Allí debemos ingresar la letra S para confirmar la descarga e instalación y posteriormente veremos el siguiente mensaje:
+	Allí debemos ingresar la letra S para confirmar la descarga e instalación y posteriormente veremos el siguiente mensaje:
 
-[IMAGES]
+	![OpenVas 3](/assets/images/openvas3.png)
 
-También ingresaremos la letra S para confirmar la instalación de esos paquetes. Durante el proceso de instalación veremos el siguiente mensaje
+	También ingresaremos la letra S para confirmar la instalación de esos paquetes. Durante el proceso de instalación veremos el siguiente mensaje
 
-[IMAGES]
+	![OpenVas 4](/assets/images/openvas4.png)
+	Allí podremos confirmar o no que los servicios afectados sean reiniciados automáticamente o no. De este modo solo falta esperar alrededor de 7 minutos para que el proceso concluya.
 
-Allí podremos confirmar o no que los servicios afectados sean reiniciados automáticamente o no. De este modo solo falta esperar alrededor de 7 minutos para que el proceso concluya.
-
-En algunos casos, cuando ejecutamos apt-get install openvas se genera el error No se ha podido localizar el paquete openvas.
+	En algunos casos, cuando ejecutamos apt-get install openvas se genera el error No se ha podido localizar el paquete openvas.
 
 Para esto, accederemos al directorio /etc/apt/sources.list usando el editor deseado:
 
-	nano /etc/apt/sources.list
+	```nano /etc/apt/sources.list```
 
 Allí debemos adicionar las siguientes líneas:
 
-    deb http://http.kali.org/kali kali-rolling main contrib non-free
+    ```deb http://http.kali.org/kali kali-rolling main contrib non-free
     deb http://old.kali.org/kali sana main non-free contrib
-    deb http://old.kali.org/kali moto main non-free contrib
+    deb http://old.kali.org/kali moto main non-free contrib```
 	
-[IMAGES]
+![OpenVas 5](/assets/images/openvas5.png)
 
 Guardamos los cambios y ejecutamos apt-get update para actualizar el sistema y de este modo poder descargar e instalar OpenVAS.
 Cómo configurar OpenVAS en Kali Linux.
 
 PASO 1: Tan pronto concluya el proceso de instalación de OpenVAS, procedemos a ejecutar el siguiente comando para la configuración de OpenVAS.
 	
-	openvas-setup
+	```openvas-setup```
 
 PASO 2: Este proceso toma entre 20 a 30 minutos debido a los múltiples valores de configuración que son ejecutados automáticamente ya que se requiere descargar y actualizar todas las definiciones CVE y SCAP requeridas para su óptimo funcionamiento.
 
 PASO 3: Debemos poner atención al resultado del comando durante la configuración de OpenVAS, ya que este genera la contraseña durante la instalación y esta será impresa en la consola al final de la configuración:
 
-[IMAGES]
-[IMAGES]
+![OpenVas 6](/assets/images/openvas6.png)
+
+![OpenVas 7](/assets/images/openvas7.png)
 
 PASO 4: Verificamos que OpenVAS esté en ejecución con el siguiente comando: netstat -tulpn. Se abrirá automáticamente la aplicación en el navegador web, recuerda permitir la excepción de seguridad para desplegar la administración WEB.
 
-[IMAGES]
-[IMAGES]
+![OpenVas 8](/assets/images/openvas8.png)
+
+![OpenVas 9](/assets/images/openvas9.png)
 
 Nota: En caso de que no se ejecute automáticamente la aplicación en tu navegador, puedes seguir los siguientes pasos:
 
@@ -121,7 +122,7 @@ Contraseña: La que genero la herramienta en el proceso de configuración, de al
 
 Ingresamos con las credenciales y este será el entorno ofrecido por OpenVAS:
 
-[IMAGES]
+![OpenVas 10](/assets/images/openvas10.png)
 
 En el home de administración tendremos múltiples secciones como se detallan a continuación:
 
