@@ -2,7 +2,7 @@
 title: "ScrollOut F1 AntiSpam"
 author: "PartyHack"
 header: 
-  teaser: "/assets/images/post/2018/scrollup.jpg"
+  teaser: "/assets/images/post/2018/scrollup.png"
 ---
 	
 
