@@ -9,6 +9,7 @@ header:
 Actualmente si tiene  algunos de los +5 ISP, que brindan internet en los hogares o empresas,  automáticamente se le asigna, los servidores DNS, cuando su router o equipo se conecta a Internet a través de DHCP … pero la buena noticia es que no tiene que usarlos más.
 
 Para los desarrolladores o profesionales de las TIC, entendemos lo importante que son los DNS, sobre todo en situaciones que muchas veces los dns automáticos han tenido complicaciones y del tratamiento de los datos ni hablar.Es por esto que a continuación se muestran los servidores DNS gratuitos que puede utilizar en lugar de los asignados, los mejores y más confiables de los que, de la talla de Google y OpenDNS, puede encontrar a continuación:
+
 |     EMPRESA         | DNS PRINCIPAL  | DNS SECUNDARIO |
 | ------------------- | -------------- | -------------  |
 | Cloudflare          | 1.1.1.1        | 1.0.0.1        |
