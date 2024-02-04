@@ -1,5 +1,5 @@
 ---
-title: "Talleres Prácticos junto a Party Hack!"
+title: "Security Conference 2018 INACAP Santiago Sur"
 author: "PartyHack"
 ---
 	
