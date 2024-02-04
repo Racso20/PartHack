@@ -2,7 +2,7 @@
 title: "Herramienta gratuita para buscar vulnerabilidades con OpenVAS en KaliLinux"
 author: "PartyHack"
 header: 
-  teaser: "/assets/images/openvas.png"
+  teaser: "/assets/images/post/2018/openvas.png"
 ---
 	
 
@@ -23,7 +23,7 @@ Esta aplicación esta incluida dentro de la solución de gestión de vulnerabili
 
 OpenVAS es gratuito ya que está bajo la Licencia Pública General de GNU (GNU GPL). A nivel de arquitectura, OpenVAS ejecuta de manera eficaz las Pruebas de vulnerabilidad de red (NVT) con una estructura similar a esta:
 
-![OpenVas 1](/assets/images/openvas1.png)
+![OpenVas 1](/assets/images/post/2018/openvas1.png)
 
 OpenVAS Manager es el servicio central que permite la consolidación del escaneo de vulnerabilidades ofreciendo una solución completa a nivel de administración de vulnerabilidades. Este Manager se encarga de controlar el escáner mediante OTP (OpenVAS Transfer Protocol) y ofrece el OpenVAS Management Protocol (OMP) basado en XML.
 
@@ -61,7 +61,7 @@ En primer lugar, será necesario actualizar todos los paquetes del sistema, para
 
 1. Instalación de OpenVAS
 
-	![OpenVas 2](/assets/images/openvas2.png)
+	![OpenVas 2](/assets/images/post/2018/openvas2.png)
 
 2. Una vez actualizado el sistema, el siguiente paso es proceder con la instalación de OpenVAS, para ello debemos ejecutar el siguiente comando:
 
@@ -69,11 +69,11 @@ En primer lugar, será necesario actualizar todos los paquetes del sistema, para
 
 	Allí debemos ingresar la letra S para confirmar la descarga e instalación y posteriormente veremos el siguiente mensaje:
 
-	![OpenVas 3](/assets/images/openvas3.png)
+	![OpenVas 3](/assets/images/post/2018/openvas3.png)
 
 	También ingresaremos la letra S para confirmar la instalación de esos paquetes. Durante el proceso de instalación veremos el siguiente mensaje
 
-	![OpenVas 4](/assets/images/openvas4.png)
+	![OpenVas 4](/assets/images/post/2018/openvas4.png)
 	
 	Allí podremos confirmar o no que los servicios afectados sean reiniciados automáticamente o no. De este modo solo falta esperar alrededor de 7 minutos para que el proceso concluya.
 
@@ -89,7 +89,7 @@ Allí debemos adicionar las siguientes líneas:
     deb http://old.kali.org/kali sana main non-free contrib
     deb http://old.kali.org/kali moto main non-free contrib```
 	
-![OpenVas 5](/assets/images/openvas5.png)
+![OpenVas 5](/assets/images/post/2018/openvas5.png)
 
 Guardamos los cambios y ejecutamos apt-get update para actualizar el sistema y de este modo poder descargar e instalar OpenVAS.
 Cómo configurar OpenVAS en Kali Linux.
@@ -102,15 +102,15 @@ PASO 2: Este proceso toma entre 20 a 30 minutos debido a los múltiples valores 
 
 PASO 3: Debemos poner atención al resultado del comando durante la configuración de OpenVAS, ya que este genera la contraseña durante la instalación y esta será impresa en la consola al final de la configuración:
 
-![OpenVas 6](/assets/images/openvas6.png)
+![OpenVas 6](/assets/images/post/2018/openvas6.png)
 
-![OpenVas 7](/assets/images/openvas7.png)
+![OpenVas 7](/assets/images/post/2018/openvas7.png)
 
 PASO 4: Verificamos que OpenVAS esté en ejecución con el siguiente comando: netstat -tulpn. Se abrirá automáticamente la aplicación en el navegador web, recuerda permitir la excepción de seguridad para desplegar la administración WEB.
 
-![OpenVas 8](/assets/images/openvas8.png)
+![OpenVas 8](/assets/images/post/2018/openvas8.png)
 
-![OpenVas 9](/assets/images/openvas9.png)
+![OpenVas 9](/assets/images/post/2018/openvas9.png)
 
 Nota: En caso de que no se ejecute automáticamente la aplicación en tu navegador, puedes seguir los siguientes pasos:
 
@@ -123,7 +123,7 @@ Contraseña: La que genero la herramienta en el proceso de configuración, de al
 
 Ingresamos con las credenciales y este será el entorno ofrecido por OpenVAS:
 
-![OpenVas 10](/assets/images/openvas10.png)
+![OpenVas 10](/assets/images/post/2018/openvas10.png)
 
 En el home de administración tendremos múltiples secciones como se detallan a continuación:
 

@@ -2,7 +2,7 @@
 title: "Diplomado de Seguridad Ofensiva con Metodología DragonJAR"
 author: "Felipe Castañeda"
 header: 
-  teaser: "/assets/images/Dragonjar.png"
+  teaser: "/assets/images/post/2018/Dragonjar.png"
 ---
 
 De Donde Nace el Diplomado de Seguridad Ofensiva de DragonJAR?
@@ -20,7 +20,7 @@ Si bien el curso está pensado para personas que trabajan en el rubro TIC, la fo
 <div style="text-align:center;width: 100%;margin: auto;">
 	<div class="block-columns">
 		<div class="block-column" style="width: 25%;text-align: center;">
-			<img style="max-width:189px;border-radius:99999px;" src="/assets/images/jaimerestrepo.png" />
+			<img style="max-width:189px;border-radius:99999px;" src="/assets/images/post/2018/aimerestrepo.png" />
 		</div>
 		<div class="block-column" style="width: 75%;text-align: left;">
 			<p>Jaime Andrés Restrepo (@DragonJAR)<br/>
@@ -33,7 +33,7 @@ Si bien el curso está pensado para personas que trabajan en el rubro TIC, la fo
 			Ingeniero en Sistemas y Telecomunicaciones con especialidad en Sistemas de Información Geográfica de la Universidad de Manizales. Consultor Independiente de Seguridad Informática con más de 6 años de experiencias en Ethical Hacking y Desarrollo Seguro, Miembro Fundador de La Comunidad DragonJAR, una de las comunidades de seguridad informática más grandes de habla hispana y referente en el sector.</p>
 		</div>
 		<div class="block-column" style="width: 25%;text-align: left;">
-			<img style="max-width:189px;" src="/assets/images/jacobo-tibiquira.png" />
+			<img style="max-width:189px;" src="/assets/images/post/2018/jacobo-tibiquira.png" />
 		</div>
 	</div>
 </div>

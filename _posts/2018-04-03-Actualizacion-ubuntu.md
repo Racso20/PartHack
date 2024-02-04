@@ -2,9 +2,9 @@
 title: "Actualización de Seguridad para Ubuntu"
 author: "Felipe Castañeda"
 header: 
-  teaser: "/assets/images/ubuntu.png"
+  teaser: "/assets/images/post/2018/ubuntu.png"
 ---
-![Tux](/assets/images/tux.jpg)
+![Tux](/assets/images/post/2018/tux.jpg)
 
 Ubuntu ha liberado dos boletines de seguridad (USN-3614-1 y USN-3613-1) para corregir múltiples problemas de seguridad para las versiones de OpenJDK (versión libre de la plataforma de desarrollo Java bajo concepto de lenguaje orientado a objetos).
 

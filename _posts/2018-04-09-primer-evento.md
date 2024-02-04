@@ -2,7 +2,7 @@
 title: "Nuestro Primer Evento!"
 author: "Felipe Castañeda"
 header: 
-  teaser: "/assets/images/1Evento.png"
+  teaser: "/assets/images/post/2018/1Evento.png"
 ---
 
 El día sábado 07 de abril de 2018 se llevó a cabo nuestra primera actividad como grupo, en donde pudimos compartir nuestras experiencias de vida, desde que fuimos estudiantes de DUOC UC hasta nuestro trabajo actual. Esta actividad se logró planificar gracias a la gestión que realizó el Profesor Rodrigo Vargas de la Sede DUOC UC Plaza Oeste, que también es miembro activo de nuestra comunidad, contó con el apoyo de colaboradores de nuestro blog P4rtyH4ck!, en esta ocasión participaron Esteban Arancibia, Luis Llanos y Felipe Castañeda.
@@ -17,6 +17,6 @@ Se invitó a los alumnos a participar de nuestro blog, y a raíz de ello se abri
 
 A continuación se mostrarán algunas imágenes del evento.
 
-![Evento](/assets/images/evento1.jpg) | ![Evento](/assets/images/evento2.jpg)
+![Evento](/assets/images/post/2018/evento1.jpg) | ![Evento](/assets/images/post/2018/evento2.jpg)
 
-![Evento](/assets/images/evento3.jpg) | ![Evento](/assets/images/evento4.jpg)
+![Evento](/assets/images/post/2018/evento3.jpg) | ![Evento](/assets/images/post/2018/evento4.jpg)

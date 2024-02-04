@@ -2,7 +2,7 @@
 title: "Tampering, utilización y contramedidas"
 author: "Nitr0X"
 header: 
-  teaser: "/assets/images/tampering.png"
+  teaser: "/assets/images/post/2018/tampering.png"
 ---
 
 En mi primera entrada en el blog de PartyHack! escribiré sobre esta técnica que me ha dado muy buenos resultados realizando ataques manuales a aplicativos web, si bien es cierto puede ser utilizada en distintos escenarios de pentesting, hoy solo lo enfocaré a aplicativos web. Espero sea de su interés y los ayude en sus tareas de detección y explotación de bug’s.
@@ -26,15 +26,15 @@ Les recomiendo para iniciar Tamper Chrome, es bastante intuitivo y versátil, le
 
 ## Pantalla de configuración
 
-![Tampering 1](/assets/images/ima1.png)
+![Tampering 1](/assets/images/post/2018/ima1.png)
 
 ## Pantalla de Tampering
 
-![Tampering 2](/assets/images/ima3.png)
+![Tampering 2](/assets/images/post/2018/ima3.png)
 
 ## Decoder Integrado
 
-![Tampering 3](/assets/images/ima4.png)
+![Tampering 3](/assets/images/post/2018/ima4.png)
 
 Finalmente, las contra medidas, uffff tarea ardua, ya que es necesario tener un DevOp que tenga la seguridad en su ADN y validen todas las variables y control de acceso a datos por usuario o funciones, algo muy complejo de encontrar hoy, pero bueno, vamos con algunos ejemplos
 

@@ -2,7 +2,7 @@
 title: "Analizador de paquetes CapAnalysis"
 author: "Felipe Castañeda"
 header: 
-  teaser: "/assets/images/capanalysis.png"
+  teaser: "/assets/images/post/2018/capanalysis.png"
 ---
 
 CapAnalysis es una herramienta web con licencia OpenSource, desarrollado para analistas de seguridad, administradores de sistemas y todos los que necesitan analizar grandes cantidades de tráfico de red.
@@ -20,7 +20,7 @@ En CapAnalysis posee un poderoso conjunto de filtros muy sencillo de utilizar, a
 - **Filter protocols**: Permite filtrar por protocolos.
 - **Filter date and time**: Permite filtrar por fecha y hora.
 	
-![Filtrado](/assets/images/filtrado.jpg)
+![Filtrado](/assets/images/post/2018/filtrado.jpg)
 
 Para cada conjunto de datos, compuesto por uno o más archivos PCAP, CapAnalysis recopila información para cada flujo de paquetes UDP y TCP. Para los flujos TCP, es capaz de identificar el número de bytes perdidos, para cada dirección, y el total de bytes intercambiados eliminando del recuento los paquetes retransmitidos. Esta última característica es posible porque CapAnalysis es capaz de volver a montar las secuencias TCP para realizar su análisis.
 
@@ -35,16 +35,16 @@ Los protocolos que CapAnalysis puede identificar son más de 140 y dentro de est
 | TeamViewer  | Skype         | Spotify      | TeamSpeak   | RTP         | YouTube     | Oracle      | WhatsApp    |
 
 ## Protocolos
-![Protocolo](/assets/images/protocolo.jpg)
+![Protocolo](/assets/images/post/2018/protocolo.jpg)
 
 ## Estadísticas
-![Estadística](/assets/images/estadistica.jpg)
+![Estadística](/assets/images/post/2018/estadistica.jpg)
 
 ## Vista de Resumen
-![Resumen](/assets/images/resumen.jpg)
+![Resumen](/assets/images/post/2018/resumen.jpg)
 
 ## GeoLocalización
-![Geolocalizacion](/assets/images/geolocalizacion.jpg)
+![Geolocalizacion](/assets/images/post/2018/geolocalizacion.jpg)
 
 ## Como Instalar CapAnalysis
 
@@ -62,21 +62,21 @@ Para instalar Gdebi se utiliza el siguiente comando:
 
 una vez descargado CapAnalysis nos dirigimos al directorio donde se encuentra el archivo capanalysis_1.2.2_amd64.deb y haciendo clic con el botón derecho del mouse, seleccionamos instalador de paquetes GDebi.
 
-![Paquete](/assets/images/paquete.jpg)
+![Paquete](/assets/images/post/2018/paquete.jpg)
 
 Presionar el botón «Instalar paquete» y se iniciará el proceso de instalación
 
-![Instalador](/assets/images/instalador.jpg)
+![Instalador](/assets/images/post/2018/instalador.jpg)
 
 Una vez completada la instalación GDebi nos mostrará un cuadro con el estado de finalización.
 
-![Finalizado](/assets/images/finalizado.jpg)
+![Finalizado](/assets/images/post/2018/finalizado.jpg)
 
 ## Configuración
 
 Para acceder a CapAnalysis se debe ingresar con su navegador a la siguiente dirección http: // localhost: 9877
 Al iniciar por primera vez presionaremos el botón «New Password»
 
-![Capturar](/assets/images/capturar.jpg)
+![Capturar](/assets/images/post/2018/capturar.jpg)
 
 Finalmente podemos concluir que CapAnalysis es una herramienta muy sencilla de usar, que nos ayudara en nuestros análisis.
