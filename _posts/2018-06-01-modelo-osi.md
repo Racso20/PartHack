@@ -6,7 +6,7 @@ header:
 ---
 	
 
-## El modelo OSI (Open Systems Interconnection o Interconexión de Sistemas Abiertos) es una estructura referencial que fue desarrollada en los 80s por la Organización Internacional de Estándares (ISO) con la intención de establecer un marco que sirviera de guía en el desarrollo de protocolos de comunicación. Estos protocolos siguen sus propios estándares internamente pero se manejan dentro de este marco referencial, por tanto, se podría decir que el modelo OSI es un estándar de estándares.
+El modelo OSI (Open Systems Interconnection o Interconexión de Sistemas Abiertos) es una estructura referencial que fue desarrollada en los 80s por la Organización Internacional de Estándares (ISO) con la intención de establecer un marco que sirviera de guía en el desarrollo de protocolos de comunicación. Estos protocolos siguen sus propios estándares internamente pero se manejan dentro de este marco referencial, por tanto, se podría decir que el modelo OSI es un estándar de estándares.
 
 En esencia, la información se transmite de forma vertical a través de las 7 capas desde la aplicación fuente hasta la estructura física (cables que transmiten información en forma de bits) desde donde se transmite de nuevo hacia arriba en la estructura para llegar a la aplicación destino.
 Las 7 capas del modelo OSI.

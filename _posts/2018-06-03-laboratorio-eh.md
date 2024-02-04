@@ -47,7 +47,7 @@ Arroja cerca de 8.210 resultados relacionadas con la organización NMAP, pero, l
 
 ![Etico 3](/assets/images/post/2018/etico3.png)
 
-El resultado es una dirección Ipv4 (45.33.32.156) Ahora se realizará 2 tipos de consultas, el servicio de nombres NS y el servicio de correo MX para el dominio de nuestro objetivo, en este caso nmap.org   *set type = [ NS | MX ]*   Escriba: set type=NS nmap.org
+<p>El resultado es una dirección Ipv4 (45.33.32.156) Ahora se realizará 2 tipos de consultas, el servicio de nombres NS y el servicio de correo MX para el dominio de nuestro objetivo, en este caso nmap.org set type = [ NS | MX ] Escriba: set type=NS nmap.org</p>
 
 ![Etico 4](/assets/images/post/2018/etico4.png)
 
