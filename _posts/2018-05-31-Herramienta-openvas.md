@@ -74,6 +74,7 @@ En primer lugar, será necesario actualizar todos los paquetes del sistema, para
 	También ingresaremos la letra S para confirmar la instalación de esos paquetes. Durante el proceso de instalación veremos el siguiente mensaje
 
 	![OpenVas 4](/assets/images/openvas4.png)
+	
 	Allí podremos confirmar o no que los servicios afectados sean reiniciados automáticamente o no. De este modo solo falta esperar alrededor de 7 minutos para que el proceso concluya.
 
 	En algunos casos, cuando ejecutamos apt-get install openvas se genera el error No se ha podido localizar el paquete openvas.
