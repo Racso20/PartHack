@@ -66,6 +66,6 @@ Otro punto alto es que nos enseñan a realizar una identificación de entorno, e
 
 Esta sección posee un valor agregado, nos enseña como enviar pre-informes, informes técnicos o ejecutivos, presentación de resultados.
 
-El listado completo de temas lo podemos obtener del siguiente link. https://www.dragonjar.org/diplomado-de-seguridad-informatica-ofensiva.xhtml
+El listado completo de temas lo podemos obtener del siguiente link. [https://www.dragonjar.org/diplomado-de-seguridad-informatica-ofensiva.xhtml](https://www.dragonjar.org/diplomado-de-seguridad-informatica-ofensiva.xhtml){:target="_blank"}
 
 En resumen me permitió conocer grandes personas del ámbito de la seguridad informática,  muchos de mis compañeros asistentes se unieron a nuestra comunidad, motivados por las ganas de mejorar y promover la seguridad y a modo personal  me sirvió bastante, fue duro, pero sin duda unos de los mejores cursos que he asistido.

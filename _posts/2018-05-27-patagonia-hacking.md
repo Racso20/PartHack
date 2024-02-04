@@ -2,7 +2,7 @@
 title: "Patagonia Hacking"
 author: "PartyHack"
 header: 
-  teaser: "/assets/images/duocuc.png"
+  teaser: "/assets/images/patagonia-hacking.jpg"
 ---
 	
 
@@ -28,6 +28,6 @@ El ingreso a esta conferencia tiene un costo de un alimento no perecible, el cua
 
 Felicitamos  **INACAP Sede Punta Arenas** por confiar y promover estas iniciativas, que acercan la Seguridad Informática a la comunidad más Austral de nuestro País.
 
-[IMAGES]
+![Patagonia Hacking](patagonia-hacking-2018.jpg)
 
-Para mas Información del evento ingrese al siguiente sitio web: https://www.patagoniasec.cl/
+Para mas Información del evento ingrese al siguiente sitio web: [https://www.patagoniasec.cl/](https://www.patagoniasec.cl/){:target="_blank"}
