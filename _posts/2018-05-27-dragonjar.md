@@ -20,7 +20,7 @@ Si bien el curso está pensado para personas que trabajan en el rubro TIC, la fo
 <div style="text-align:center;width: 100%;margin: auto;">
 	<div class="block-columns">
 		<div class="block-column" style="width: 25%;text-align: center;">
-			<img style="max-width:189px;border-radius:99999px;" src="/assets/images/post/2018/aimerestrepo.png" />
+			<img style="max-width:189px;border-radius:99999px;" src="/assets/images/post/2018/jaimerestrepo.png" />
 		</div>
 		<div class="block-column" style="width: 75%;text-align: left;">
 			<p>Jaime Andrés Restrepo (@DragonJAR)<br/>
