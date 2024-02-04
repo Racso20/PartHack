@@ -9,7 +9,7 @@ De Donde Nace el Diplomado de Seguridad Ofensiva de DragonJAR?
 
 La Comunidad DragonJAR, es una de las comunidades de habla hispana referentes en el área de seguridad informática y que en más de 15 años se ha caracterizado por ser el semillero virtual para quienes hoy son grandes profesionales en el ámbito de la seguridad informática, tanto en Colombia cómo en Latinoamérica.
 
-Url del sitio de DragonJAR https://www.dragonjar.org/
+Url del sitio de DragonJAR: [https://www.dragonjar.org/](https://www.dragonjar.org/){:target="_blank"}
 
 El Diplomado de Seguridad Ofensiva de DragonJAR está basado en una metodología innovadora, que es muy motivante a la hora de realizar una especialización en seguridad.
 
@@ -17,7 +17,7 @@ Si bien el curso está pensado para personas que trabajan en el rubro TIC, la fo
 
 ¿Pero quienes son ellos?
 
-<div style="text-align:center;width: 35rem;margin: auto;">
+<div style="text-align:center;width: 100%;margin: auto;">
 	<div class="block-columns">
 		<div class="block-column" style="width: 25%;text-align: center;">
 			<img style="max-width:189px;border-radius:99999px;" src="/assets/images/jaimerestrepo.png" />
@@ -37,16 +37,6 @@ Si bien el curso está pensado para personas que trabajan en el rubro TIC, la fo
 		</div>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-
-[IMAGES]
 
 Después de conocer un poco acerca de los Instructores, que temas aborda el Diplomado de Seguridad Ofensiva?
 
