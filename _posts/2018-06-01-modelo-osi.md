@@ -35,7 +35,7 @@ En todas las capas de la red la información se maneja en el formato adecuado, a
 
 6. Capa de Presentación: Es la encargada de convertir la data de un tipo de representación a otro. Por ejemplo, en un extremo se puede emplear un proceso de compresión complejo para reducir la cantidad de bits que se transportan por la red y en el otro extremo esos bits se “descomprimen” de forma tal que sean interpretados por la capa de aplicación. Esta capa es también conocida como la capa de sintáxis.El PDU en esta capa es “Data”.
 
-	![Capa Presentacion](/assets/images/post/2018/)
+	![Capa Presentacion](/assets/images/post/2018/capa-presentacion.jpg)
 
 7. Capa de Aplicación: Se encarga de manejar las técnicas de red empleadas por las aplicaciones para establecer conexiones, en esta capa se encuentra el protocolo HTTP.El PDU en esta capa es “Data”.
 
