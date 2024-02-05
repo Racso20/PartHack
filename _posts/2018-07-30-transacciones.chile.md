@@ -48,11 +48,11 @@ PASO 2 Ingresar Numero de Tarjeta, Vencimiento, Código Verificación . Click en
 
 PASO 3 Transacción Aprobada !
 
-*Como podrá apreciar, el Banco “C” tiene menos requisitos para aprobar la transacción, solo pide los datos de la Tarjeta, pese a que sus clientes cuentan con un XPass.*
+**Como podrá apreciar, el Banco “C” tiene menos requisitos para aprobar la transacción, solo pide los datos de la Tarjeta, pese a que sus clientes cuentan con un XPass.**
 
 PoC 2: Transacción con Tarjeta de Débito.
 
-Transacción con Tarjeta de *Débito Banco “B”*
+Transacción con Tarjeta de **Débito Banco “B”**
 
 PASO 1 Seleccionar Tarjeta de Débito
 
@@ -72,7 +72,7 @@ PASO 4 El Banco “B” pide ingresar los 6 dígitos del XPass
 
 PASO 5 Transacción Aprobada !
 
-Transacción con Tarjeta de *Débito Banco “C”*
+Transacción con Tarjeta de **Débito Banco “C”**
 
 PASO 1 Seleccionar Tarjeta de Débito
 
@@ -92,10 +92,10 @@ PASO 4 El Banco “C” pide ingresar los 6 dígitos del XPass
 
 PASO 5 Transacción Aprobada !
 
-*Esta vez el Banco“C” si solicita el uso del Xpass, pero solo pide ingresar el RUT. En otros pruebas observe bancos que solo piden el numero de Tarjeta, el cual es mas difícil de obtener. Aun así el ideal es solicitar ambos.*
+**Esta vez el Banco“C” si solicita el uso del Xpass, pero solo pide ingresar el RUT. En otros pruebas observe bancos que solo piden el numero de Tarjeta, el cual es mas difícil de obtener. Aun así el ideal es solicitar ambos.**
 
 En esta prueba de concepto no se trata de decir cual banco es mejor o peor, se trata de identificar las mejores practicas para saber que pedir como clientes y el comercio electrónico pueda continuar creciendo en Chile de manera segura.
 
 Nota: Después de la filtración de las 14mil tarjetas, el Banco C incorporo el uso de Xpass, lo cual mejora sustancialmente la seguridad y muestra que existe preocupación de mejorar los servicios a sus clientes.
 
-*Y tu banco usa segunda clave siempre?*
+**Y tu banco usa segunda clave siempre?**
