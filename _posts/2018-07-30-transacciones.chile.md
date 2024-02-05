@@ -7,7 +7,7 @@ header:
 
 Los últimos acontecimientos que han afectado a la banca chilena han puesto el tema de la ciberseguridad como una prioridad, con la filtración de las [14 mil tarjetas de crédito](https://www.biobiochile.cl/noticias/nacional/chile/2018/07/25/hackers-filtran-documento-con-14-mil-tarjetas-de-credito-de-clientes-de-bancos-chilenos.shtml){:target="_blank"} las personas comunes entraron en pánico y comprendieron que los cibercriminales no discriminan entre los clientes y los bancos.
 
-A continuación se expone una investigación realizada al principalesSistema de pago electrónico de Chile, para que cada cliente se informe que tan protegido o expuesto esta a la hora de comprar por internet.
+A continuación se expone una investigación realizada al principales Sistema de pago electrónico de Chile, para que cada cliente se informe que tan protegido o expuesto esta a la hora de comprar por internet.
 
 ### Compras con tarjeta de Crédito y Débito.
 
