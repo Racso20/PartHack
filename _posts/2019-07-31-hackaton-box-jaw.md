@@ -125,9 +125,9 @@ Todo esto lo podemos simplificar en una linea.
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight">
 <pre class="highlight"><code>
-root@kali:~# echo 'echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»<br/>
-| base64 –decode' | tr '&#91;A-Za-z&#93;' '&#91;N-ZA-Mn-za-m&#93;' | rev<br/>
-user=b4byshark pass=4NBDvhGnE6cG2dc<br/>
+root@kali:~# echo 'echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»
+| base64 –decode' | tr '&#91;A-Za-z&#93;' '&#91;N-ZA-Mn-za-m&#93;' | rev
+user=b4byshark pass=4NBDvhGnE6cG2dc
 root@kali:~#
 </code></pre></div></div>
 
@@ -164,7 +164,7 @@ b4byshark@jaws:~$
 
 Copiaremos el archivo Jaws.jpg a nuestra maquina para revisarlo si posee algun archivo o pista que se encuentre en la imagen.
 
-````
+```
 b4byshark@jaws:~$ scp Jaws.jpg root@192.168.183.1:/root/Escritorio/
 root@192.168.183.1’s password:
 Jaws.jpg 100% 25KB 9.1MB/s 00:00
