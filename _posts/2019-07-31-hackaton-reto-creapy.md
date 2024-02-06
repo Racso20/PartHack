@@ -1,6 +1,8 @@
 ---
 title: "Hackaton Telefonica 2019 – Reto Cr33py"
 author: "31m0"
+header: 
+  teaser: "/assets/images/ctf.png"
 ---
 
 Para este desafió no necesitamos herramientas complicadas, solo un reproductor de vídeo para capturar

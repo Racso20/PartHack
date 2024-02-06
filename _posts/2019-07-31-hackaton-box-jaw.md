@@ -1,6 +1,8 @@
 ---
 title: "Hackaton Telefonica 2019 – Box JAWS"
 author: "31m0"
+header: 
+  teaser: "/assets/images/ctf.png"
 ---
 
 

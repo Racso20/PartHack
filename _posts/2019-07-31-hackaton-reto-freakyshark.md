@@ -1,6 +1,8 @@
 ---
 title: "Hackaton Telefonica 2019 – Reto Fr34kySh4rk"
 author: "31m0"
+header: 
+  teaser: "/assets/images/ctf.png"
 ---
 
 En este reto nos entregan el archivo fr3akysh4rk.pcapng el cual corresponde a un archivo de captura de trafico que podemos abrir con wireshark, al abrirlo nos aparece el siguiente error
