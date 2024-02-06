@@ -86,7 +86,7 @@ Luego de esos pasos, podría considerar en invertir un poco en UD, unos pocos d�
 - [https://backtrackacademy.com/](https://backtrackacademy.com/){:target="_blank"}
 - [https://www.pentesteracademy.com/](https://www.pentesteracademy.com/){:target="_blank"}
 - [https://ethicalhackersacademy.com/](Geektyper.com){:target="_blank"}
-- Y también en Udemy puede buscar [cursos](https://www.udemy.com/courses/search/?src=ukw&q=hacking+ethico](:target="_blank"} con buena puntación.
+- Y también en Udemy puede buscar [cursos](https://www.udemy.com/courses/search/?src=ukw&q=hacking+ethico)(:target="_blank"} con buena puntación.
 - También puede ver el webinar de nuestro amigo Agustin Salas: [https://www.youtube.com/watch?v=kuuB0te91mo](https://www.youtube.com/watch?v=kuuB0te91mo){:target="_blank"}
 
 Planteare dos escenarios posibles para realizar estos ejercicios de manera OFF-LINE a través de sistemas preparado para ello como son:
