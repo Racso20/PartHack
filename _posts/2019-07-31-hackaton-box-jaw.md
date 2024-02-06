@@ -218,7 +218,7 @@ y aplicamos la misma técnica para resolver el string del usuario 1
 <pre class="highlight"><code>
 root@kali:~/Escritorio# cat user2.txt<br>
 SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=<br>
-root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘[A-Za-z]’ ‘[N-ZA-Mn-za-m]’ | rev<br>
+root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘&#91;A-Za-z&#93;’ ‘&#91;N-ZA-Mn-za-m&#91;’ | rev<br>
 User: d4ddysh4rk Pass: Enf5yMFMWvi8rnV<br>
 root@kali:~/Escritorio#
 </code></pre>
