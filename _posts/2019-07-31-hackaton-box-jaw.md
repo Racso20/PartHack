@@ -229,11 +229,10 @@ Utilizamos la contraseña y nos extrae el archivo user2.txt, al revisarlo nos ap
 y aplicamos la misma técnica para resolver el string del usuario 1
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight">
-<pre class="highlight"><code>
-root@kali:~/Escritorio# cat user2.txt<br>
-SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=<br>
-root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘&#91;A-Za-z&#93;’ ‘&#91;N-ZA-Mn-za-m&#91;’ | rev<br>
-User: d4ddysh4rk Pass: Enf5yMFMWvi8rnV<br>
+<pre class="highlight"><code>root@kali:~/Escritorio# cat user2.txt
+SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=
+root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘&#91;A-Za-z&#93;’ ‘&#91;N-ZA-Mn-za-m&#91;’ | rev
+User: d4ddysh4rk Pass: Enf5yMFMWvi8rnV
 root@kali:~/Escritorio#
 </code></pre></div></div>
 
@@ -390,7 +389,7 @@ dirty_sock@jaws:/tmp$
 
 Ahora probaremos los permisos de sudo para alcanzar root y obtener el 4 flag
 
-````
+```
 dirty_sock@jaws:/home/d4ddysh4rk$ sudo su
 [sudo] contraseña para dirty_sock:
 root@jaws:/home/d4ddysh4rk# cat /root/flag4.txt
@@ -412,9 +411,9 @@ Al mirar detenidamente la imagen encontraremos el ultimo flag, en el interior de
 
 Si quieres ver otros Write revisa los siguientes enlaces.
 
-HAckAtOn Telefónica 2019
+## HAckAtOn Telefónica 2019
 
-Caja
+### Caja
 
 	Bofetada - https://github.com/s1kr10s/WriteUp
 	Cacofonia - https://medium.com/@ctorogar/write-up-cacofon%C3%ADa-47cb732f46f8
@@ -424,7 +423,7 @@ Caja
 	TreasureIsland - https://finsin.cl/2019/07/30/escrito-de-hackatontelefonica-treasure-island
 	Bury a Fr1end - https://partyhack.cl/2019/07/31/hackaton-telefonica-2019-box-writeup-bury_a_fr1end
 
-Reto
+### Reto
 
 	0p3npuff, Fr34kySh4rk, Cr33py, P4st3b1n - https://partyhack.cl/2019/07/31/hackaton-telefonica-2019-retos-0p3npuff-cr33py-fr34kys
 
