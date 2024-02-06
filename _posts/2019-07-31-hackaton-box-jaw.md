@@ -215,13 +215,14 @@ root@kali:~/Escritorio#
 Utilizamos la contraseña y nos extrae el archivo user2.txt, al revisarlo nos aparece un string en base64
 y aplicamos la misma técnica para resolver el string del usuario 1
 
-```
-root@kali:~/Escritorio# cat user2.txt
-SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=
-root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘[A-Za-z]’ ‘[N-ZA-Mn-za-m]’ | rev
-User: d4ddysh4rk Pass: Enf5yMFMWvi8rnV
+<pre class="highlight"><code>
+root@kali:~/Escritorio# cat user2.txt<br>
+SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=<br>
+root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘[A-Za-z]’ ‘[N-ZA-Mn-za-m]’ | rev<br>
+User: d4ddysh4rk Pass: Enf5yMFMWvi8rnV<br>
 root@kali:~/Escritorio#
-```
+</code></pre>
+
 
 Probaremos las nuevas credenciales que obtuvimos
 
