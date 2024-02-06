@@ -123,12 +123,12 @@ root@kali:~#
 
 Todo esto lo podemos simplificar en una linea.
 
-````
-root@kali:~# echo `echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»
-| base64 –decode` | tr ‘&#91;A-Za-z&#93;’ ‘&#91;N-ZA-Mn-za-m&#93;’ | rev
-user=b4byshark pass=4NBDvhGnE6cG2dc
+<pre class="highlight"><code>
+root@kali:~# echo 'echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»<br/>
+| base64 –decode' | tr '&#91;A-Za-z&#93;' '&#91;N-ZA-Mn-za-m&#93;' | rev<br/>
+user=b4byshark pass=4NBDvhGnE6cG2dc<br/>
 root@kali:~#
-```
+</code></pre>
 
 Probaremos las credenciales para conectarnos por ssh
 
