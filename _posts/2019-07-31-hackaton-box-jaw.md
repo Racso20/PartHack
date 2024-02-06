@@ -123,12 +123,13 @@ root@kali:~#
 
 Todo esto lo podemos simplificar en una linea.
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight">
 <pre class="highlight"><code>
 root@kali:~# echo 'echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»<br/>
 | base64 –decode' | tr '&#91;A-Za-z&#93;' '&#91;N-ZA-Mn-za-m&#93;' | rev<br/>
 user=b4byshark pass=4NBDvhGnE6cG2dc<br/>
 root@kali:~#
-</code></pre>
+</code></pre></div></div>
 
 Probaremos las credenciales para conectarnos por ssh
 
@@ -215,13 +216,14 @@ root@kali:~/Escritorio#
 Utilizamos la contraseña y nos extrae el archivo user2.txt, al revisarlo nos aparece un string en base64
 y aplicamos la misma técnica para resolver el string del usuario 1
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight">
 <pre class="highlight"><code>
 root@kali:~/Escritorio# cat user2.txt<br>
 SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=<br>
 root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘&#91;A-Za-z&#93;’ ‘&#91;N-ZA-Mn-za-m&#91;’ | rev<br>
 User: d4ddysh4rk Pass: Enf5yMFMWvi8rnV<br>
 root@kali:~/Escritorio#
-</code></pre>
+</code></pre></div></div>
 
 
 Probaremos las nuevas credenciales que obtuvimos
