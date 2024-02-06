@@ -1,5 +1,5 @@
 ---
-title: "Hackaton Telefonica 2019 – Reto P4st3b1n"
+title: "CFT Q4 – Arlecchino"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/ctf.png"
