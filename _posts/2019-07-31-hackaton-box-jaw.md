@@ -124,8 +124,7 @@ root@kali:~#
 Todo esto lo podemos simplificar en una linea.
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight">
-<pre class="highlight"><code>
-root@kali:~# echo 'echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»
+<pre class="highlight"><code>root@kali:~# echo 'echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»
 | base64 –decode' | tr '&#91;A-Za-z&#93;' '&#91;N-ZA-Mn-za-m&#93;' | rev
 user=b4byshark pass=4NBDvhGnE6cG2dc
 root@kali:~#
@@ -177,14 +176,27 @@ Revisamos con Stegsolve sin resultados
 
 Utilizamos file, binwalk y strings sin resultado que nos interese….
 
-```
+<div class="language-plaintext highlighter-rouge"><div class="highlight">
+<pre class="highlight"><code>
 root@kali:~/Escritorio# file Jaws.jpg
 Jaws.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 96×96, segment length 16, baseline, precision 8, 612×399, components 3
 root@kali:~/Escritorio# binwalk Jaws.jpg
-```
 
-<p>DECIMAL HEXADECIMAL DESCRIPTION<br/>——————————————————————————–<br/>0 0x0 JPEG image data, JFIF standard 1.01<br/>
-root@kali:~/Escritorio# strings Jaws.jpg<br/><br/>JFIF<br/>$.’ «,#<br/>(7),01444<br/>‘9=82<.342<br/>!22222222222222222222222222222222222222222222222222<br/>$3br<br/>%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz<br/>#3R<br/>&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz<br/><\c.&#91;<br/>QTHQE<br/>eu\q </p>
+DECIMAL HEXADECIMAL DESCRIPTION
+——————————————————————————–
+0 0x0 JPEG image data, JFIF standard 1.01
+root@kali:~/Escritorio# strings Jaws.jpg
+
+JFIF<br/>$.’ «,#
+(7),01444
+‘9=82<.342
+!22222222222222222222222222222222222222222222222222
+$3br<br/>%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+#3R
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+<\c.&#91;
+QTHQE<br/>eu\q
+</code></pre></div></div>
 
 Probaremos con steghide
 
