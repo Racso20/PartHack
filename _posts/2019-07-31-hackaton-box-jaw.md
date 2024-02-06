@@ -215,17 +215,17 @@ root@kali:~/Escritorio#
 Utilizamos la contraseña y nos extrae el archivo user2.txt, al revisarlo nos aparece un string en base64
 y aplicamos la misma técnica para resolver el string del usuario 1
 
-````
+```
 root@kali:~/Escritorio# cat user2.txt
 SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=
 root@kali:~/Escritorio# echo `echo «SWFlOHZpSlpTWmw1c2FSIDpmZm5DIHhlNHVmbHFxNHEgOmVyZkg=» | base64 –decode` | tr ‘[A-Za-z]’ ‘[N-ZA-Mn-za-m]’ | rev
 User: d4ddysh4rk Pass: Enf5yMFMWvi8rnV
 root@kali:~/Escritorio#
-````
+```
 
 Probaremos las nuevas credenciales que obtuvimos
 
-````
+```
 root@kali:~# ssh d4ddysh4rk@192.168.183.138
 d4ddysh4rk@192.168.183.138’s password:
 Welcome to Ubuntu 18.04 LTS (GNU/Linux 4.15.0-20-generic x86_64)
@@ -241,7 +241,7 @@ total 4
 -rw-r–r– 1 root root 38 may 1 20:40 flag3.txt
 -rw-rw-r– 1 d4ddysh4rk d4ddysh4rk 1 may 1 21:35 .readme.txt
 d4ddysh4rk@jaws:~$
-````
+```
 
 Leeremos la nota, la cual posee la clave para escalar privilegios, para poder finalmente obtener el root y el 4° flag
 
