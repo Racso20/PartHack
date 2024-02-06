@@ -125,7 +125,7 @@ Todo esto lo podemos simplificar en una linea.
 
 ````
 root@kali:~# echo `echo «cHEyVHA2UmFUdWlRT0E0PWZmbmMgeGVudWZsbzRvPWVyZmg=»
-| base64 –decode` | tr ‘[A-Za-z]’ ‘[N-ZA-Mn-za-m]’ | rev
+| base64 –decode` | tr ‘&#91;A-Za-z&#93;’ ‘&#91;N-ZA-Mn-za-m&#93;’ | rev
 user=b4byshark pass=4NBDvhGnE6cG2dc
 root@kali:~#
 ```
