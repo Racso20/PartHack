@@ -1,6 +1,6 @@
 ---
-title: "Reporte Responsable de Vulnerabilidades"
-author: "PartyHack"
+title: "Cómo analizar Malware sin ser un experto"
+author: "@DM20911"
 header: 
   teaser: "/assets/images/post/2018/malware.jpg"
 ---
