@@ -54,7 +54,7 @@ Revisamos upload.php el cual nos pide autenticación, ocupamos las credenciales 
 
 Teniendo en cuenta que hay un directorio llamado files vacío, entendemos que los archivos se subirán en ese directorio. Por lo que procederemos a subir la Shell reversa en donde nos encontraremos con una validación de Content-Type que debe ser image.
 
-![Burry Friend 10](https://miro.medium.com/v2/resize:fit:439/1*DzVCWcgd8cXBb1OsEtbrfQ.png)
+![Burry Friend 10](https://miro.medium.com/v2/resize:fit:491/1*cRCYLI2Fp6dn10sTwAq3Ng.png)
 
 Después de obtener nuestra Shell reversa en el direcotrio /var/www encontraremos nuestra segunda flag oculta.
 
