@@ -7,7 +7,7 @@
     {% if site.footer.links %}
       {% for link in site.footer.links %}
         {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
 		  {% if link.show_label %}
 			{{ link.label }}
 		  {% endif %}
@@ -17,7 +17,8 @@
     {% endif %}
 
     {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path }{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {% if site.atom_feed.show_label %}{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}{% endif %}</a></li>
+	{{ site.atom_feed.path }}
+      <li><a href="{% if site.atom_feed.path }{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true" target="_blank"></i> {% if site.atom_feed.show_label %}{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}{% endif %}</a></li>
     {% endunless %}
   </ul>
 </div>
