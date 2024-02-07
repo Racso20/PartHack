@@ -2,7 +2,7 @@
 title: "Teletrabajo y Ciberseguridad: Consejos para evitar vulneraciones."
 author: "Oscar Bravo"
 header: 
-  teaser: "/assets/images/post/2020/invertir.jpg"
+  teaser: "/assets/images/post/2020/teletrabajo.jpg"
 ---
 
 
