@@ -40,7 +40,7 @@ Si tiene una pista sobre qué tipo de herramienta se utilizó o qué contraseña
 | Herramienta   | Archivo                | Descripción | Cómo esconderse | Cómo recuperarse |
 | ------------- | ---------------------- | ----------- | --------------- | ---------------- |
 | AudioStego    | Audio (MP3 / WAV)      | Los detalles sobre cómo funciona están en esta publicación de blog | hideme cover.mp3 secret.txt && mv ./output.mp3 stego.mp3 | hideme stego.mp3 -f && cat output.txt |
-| jsteg         | Imagen (JPG)           | Herramienta LSB stego. No encripta el mensaje.	jsteg hide cover.jpg secret.txt stego.jpg	jsteg reveal cover.jpg output.txt |
+| jsteg         | Imagen (JPG)           | Herramienta LSB stego. No encripta el mensaje. | jsteg hide cover.jpg secret.txt stego.jpg | jsteg reveal cover.jpg output.txt |
 | mp3stego      | Audio (MP3)            | Viejo programa. Cifra y luego oculta un mensaje (cifrado 3DES). Herramienta de Windows ejecutándose en Wine. Requiere entrada WAV (puede arrojar errores para ciertos archivos WAV. Lo que funciona para mí es, por ejemplo:) ffmpeg -i audio.mp3 -flags bitexact audio.wav. Importante: ¡use la ruta absoluta solamente! | mp3stego-encode -E secret.txt -P password /path/to/cover.wav /path/to/stego.mp3 | mp3stego-decode -X -P password /path/to/stego.mp3 /path/to/out.pcm /path/to/out.txt |
 | openstego     | Imágenes (PNG)         | Varios algoritmos LSB stego. Aún mantenido. | openstego embed -mf secret.txt -cf cover.png -p password -sf stego.png | openstego extract -sf openstego.png -p abcd -xf output.txt (¡omita -xf para crear un archivo con el nombre original!) |
 | outguess      | Imágenes (JPG)         | Utiliza “bits redundantes” para ocultar datos. | outguess -k password -d secret.txt cover.jpg stego.jpg | outguess -r -k password stego.jpg output.txt |
@@ -67,8 +67,8 @@ cloackedpixel-analizar | Imágenes (PNG)                           | Visualizaci
 Muchas de las herramientas anteriores no requieren interacción con la interfaz grafica. Por lo tanto, puede automatizar fácilmente algunos flujos de trabajo para realizar una exploración básica de los archivos que potencialmente contienen mensajes ocultos. Dado que las herramientas aplicables difieren según el tipo de archivo, cada tipo de archivo tiene diferentes scripts.
 Para cada tipo de archivo, hay dos tipos de scripts:
 
-- *XXX_check.sh <stego-file>*: ejecuta herramientas básicas de detección y crea un informe (+ posiblemente un directorio con informes en archivos)
-- *XXX_brute.sh <stego-file> <wordlist>*: intenta extraer un mensaje oculto de un archivo stego con varias herramientas usando una lista de palabras ( cewl, john ycrunch se instalan para generar listas, mantenerlas pequeñas).
+- XXX_check.sh <stego-file>: ejecuta herramientas básicas de detección y crea un informe (+ posiblemente un directorio con informes en archivos)
+- XXX_brute.sh <stego-file> <wordlist>: intenta extraer un mensaje oculto de un archivo stego con varias herramientas usando una lista de palabras ( cewl, john ycrunch se instalan para generar listas, mantenerlas pequeñas).
 Los siguientes tipos de archivos son compatibles:
 - JPG: *check_jpg.h y/obrute_jpg.sh*(en ejecución bruta steghide, outguess, outguess-0.13, stegbreak, stegoveritas.py -bruteLSB)
 - PNG: *check_png.h y/o brute_png.sh* (ejecución bruta openstego y stegoveritas.py -bruteLSB)
@@ -78,13 +78,16 @@ Los siguientes tipos de archivos son compatibles:
 Las secuencias de comandos de fuerza bruta anteriormente descritas necesitan listas de palabras o diccionarios, el más común de todos es el rockyou, pero en ocasiones debemos realizar un diccionario a medida, para ello utilizaremos las siguientes herramientas.
 
 - John : la versión mejorada de John the Ripper puede expandir tus listas de palabras. Cree una lista de palabras y úsela para crear muchas variantes.
+
 	*uso* john -wordlist:/path/to/your/wordlist -rules:Single -stdout > /path/to/expanded/wordlist  para aplicar reglas extensas (~ x1000) john -wordlist:/path/to/your/wordlist -rules:Wordlist -stdout > /path/to/expanded/wordlist para un conjunto de reglas reducido (~ x50).
 - Crunch : puede generar listas de palabras pequeñas si tiene un patrón en mente.
+
 	Por ejemplo, si sabe que la contraseña termina en 1984 y tiene 6 letras, el uso crunch 6 6 abcdefghijklmnopqrstuvwxyz -t @@1984generará las 26 * 26 = 676 contraseñas aa1984, ab1984, … hasta zz1984.
 	
 	El formato es crunch <min-length> <max-length> <charset> <options> y usamos la opción de plantillas. Echa un vistazo less /usr/share/crunch/charset.lstpara ver los charsets de crunch para ver las plantillas.
 
 - CeWL : puede generar listas de palabras si sabe que un sitio web está relacionado con una contraseña.
+
 	Por ejemplo, ejecute cewl -d 0 -m 8 https://en.wikipedia.org/wiki/Donald_Trumpsi sospecha que una imagen de Donald Trump contiene un mensaje oculto encriptado.
 
 	El comando raspa el sitio y extrae una lista de palabras de al menos 8 caracteres para formar un diccionario.
