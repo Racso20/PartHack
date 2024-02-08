@@ -1,5 +1,5 @@
 ---
-title: "3° Webinar semanal - Un informatico en Ciberseguridad"
+title: "3° Webinar semanal - Conócete a ti mismo"
 author: "PartyHack"
 ---
 
