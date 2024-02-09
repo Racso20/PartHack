@@ -3,6 +3,8 @@ title: "Modelo OSI… Siempre es bueno recordar los conocimientos base."
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/modelo-osi.jpg"
+categories:
+  - Tecnología
 ---
 	
 

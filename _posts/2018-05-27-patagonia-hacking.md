@@ -3,6 +3,8 @@ title: "Patagonia Hacking"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/patagonia-hacking.jpg"
+categories:
+  - Evento
 ---
 	
 

@@ -1,6 +1,8 @@
 ---
 title: "10° Webinar semanal - Wandering hacking con Termux"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

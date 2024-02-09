@@ -3,6 +3,8 @@ title: "Hackaton Telefonica 2019 – Box BuRy A Fr1End"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/ctf.png"
+categories:
+  - WriteUp
 ---
 
 

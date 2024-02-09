@@ -3,6 +3,8 @@ title: "Herramienta gratuita para buscar vulnerabilidades con OpenVAS en KaliLin
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/openvas.png"
+categories:
+  - Tecnología
 ---
 	
 

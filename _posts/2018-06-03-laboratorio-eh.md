@@ -3,6 +3,8 @@ title: "Laboratorio de Hacking Ético básico"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/labeh.jpg"
+categories:
+  - Tecnología
 ---
 	
 

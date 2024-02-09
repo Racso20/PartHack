@@ -3,6 +3,8 @@ title: "Lista de DNS Alternativos con algunas mejoras"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/dnsAper.webp"
+categories:
+  - Tecnología
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 title: "6° Webinar semanal - Ciber inteligencia, ¿Cómo anteponerse a la amenaza?"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

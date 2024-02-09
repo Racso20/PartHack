@@ -3,6 +3,8 @@ title: "Reporte Responsable de Vulnerabilidades"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/smishing.jpg"
+categories:
+  - Ciberseguridad
 ---
 
 Hola comunidad,

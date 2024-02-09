@@ -3,6 +3,8 @@ title: "Primeros Pasos Utilizando Buenas Practicas"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/buenas-practicas.png"
+categories:
+  - Ciberseguridad
 ---
 
 Administradores de Red, Encargados de Sistemas, Técnicos de Soporte, Web Masters, Desarrolladores, han sido mis colegas durante 9 años. Partí como un técnico de soporte reparando fierros viejos, pero todo el tiempo tuve la inquietud de saber que hacían mis colegas para que todo estuviera relativamente bien y si estaban consientes que solo bastaba que alguien intruso sacara información de su hábitat de trabajo sin que se dieran cuenta para utilizarla para explotar algún cavo suelto olvidado por las presiones de sacar el trabajo adelante o con el clásico **“mañana lo arreglo”**. Hace algún tiempo entiendo que la seguridad operacional debe ser proceso nativo de todos los que trabajamos en infraestructura y desarrollo.

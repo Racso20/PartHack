@@ -1,6 +1,8 @@
 ---
 title: "3° Webinar semanal - Conócete a ti mismo"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 title: "9° Webinar semanal - Generación y análisis de paquetes desde la perspectiva de la seguridad en redes"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

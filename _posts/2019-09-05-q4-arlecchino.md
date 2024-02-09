@@ -3,6 +3,8 @@ title: "CFT Q4 – Arlecchino"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/ctf.png"
+categories:
+  - WriteUp
 ---
 
 

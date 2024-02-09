@@ -3,6 +3,8 @@ title: "Transacciones por internet en Chile"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/transacciones.jpg"
+categories:
+  - Ciberseguridad
 ---
 
 Los últimos acontecimientos que han afectado a la banca chilena han puesto el tema de la ciberseguridad como una prioridad, con la filtración de las [14 mil tarjetas de crédito](https://www.biobiochile.cl/noticias/nacional/chile/2018/07/25/hackers-filtran-documento-con-14-mil-tarjetas-de-credito-de-clientes-de-bancos-chilenos.shtml){:target="_blank"} las personas comunes entraron en pánico y comprendieron que los cibercriminales no discriminan entre los clientes y los bancos.

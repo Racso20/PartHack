@@ -3,6 +3,8 @@ title: "¿Es necesario invertir en seguridad de la información?"
 author: "Oscar Bravo"
 header: 
   teaser: "/assets/images/post/2020/invertir.jpg"
+categories:
+  - Ciberseguridad
 ---
 
 “Tranquilo, somos una empresa chica. Solo hackean a las grandes”. “No te preocupes, a nosotros nunca nos va a pasar, si no somos un banco”. “Ya tenemos antivirus, ¿para qué más?”. “No tenemos información importante que pueda ser de interés de terceros”. Todo especialista en ciberseguridad ha escuchado en algún minuto alguna de estas excusas al presentar un presupuesto.

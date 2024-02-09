@@ -1,6 +1,8 @@
 ---
 title: "Security Conference 2018 INACAP Santiago Sur"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 	
 

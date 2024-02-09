@@ -1,6 +1,8 @@
 ---
 title: "4° Webinar semanal - Conoce a tu enemigo con OSINT"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

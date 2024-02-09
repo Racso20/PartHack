@@ -3,6 +3,8 @@ title: "OWASP Secure Headers Project aplicado a WordPress"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/post/2018/owasp.jpg"
+categories:
+  - Noticia
 ---
 
 El OWASP Secure Headers Project se basa en la idea de que establecer cabeceras HTTP en el lado servidor es fácil y no requiere cambios en el código. Una vez establecidas, dichas cabeceras pueden restringir a los navegadores modernos de manera que no caigan en vulnerabilidades muy comunes como Cross-site scripting, Clickjacking , etc.

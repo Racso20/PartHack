@@ -1,6 +1,8 @@
 ---
 title: "8° Webinar semanal - Firewall perimetral para PYMES"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

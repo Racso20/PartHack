@@ -1,6 +1,8 @@
 ---
 title: "¿Como realizar ejercicios de Ciberseguridad?"
 author: "PartyHack"
+categories:
+  - Ciberseguridad
 ---
 
 ## Introducción

@@ -3,6 +3,8 @@ title: "Hackaton Telefonica 2019 – Reto P4st3b1n"
 author: "Ricardo Monreal"
 header: 
   teaser: "/assets/images/ctf.png"
+categories:
+  - WriteUp
 ---
 
 Este desafío parte por un link a un supuesto “leak” en pastebin https://pastebin.com/6f090H8Z

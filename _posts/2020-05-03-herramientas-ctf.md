@@ -3,6 +3,8 @@ title: "Kit de Herramientas CTF"
 author: "PartyHack"
 header: 
   teaser: "/assets/images/ctf.png"
+categories:
+  - WriteUp
 ---
 
 

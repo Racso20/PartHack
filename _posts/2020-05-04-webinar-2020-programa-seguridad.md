@@ -1,6 +1,8 @@
 ---
 title: "1° Webinar semanal - ¿Cómo implementar un programa de Seguridad digital 2.0?"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

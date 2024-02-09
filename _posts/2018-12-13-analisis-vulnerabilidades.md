@@ -3,6 +3,8 @@ title: "Cómo analizar Malware sin ser un experto"
 author: "@DM20911"
 header: 
   teaser: "/assets/images/post/2018/malware.jpg"
+categories:
+  - Ciberseguridad
 ---
 
 Para ser sincero hace bastante tiempo que quería hacer esto, y como ya pueden intuir por el título, mi intención en este breve artículo es poder ayudar a las personas que se sienten perdidas muchas veces al no saber si el archivo que acaban de descargar es dañino para su computador, tablet, teléfono celular, etc., pero ojo, el que no seas un experto no quiere decir que sea fácil, esto está asociado a ciertas competencias que de igual forma son necesarias para poder desarrollar un análisis expedito, con esto me refiero a saber virtualizar, saber utilizar comandos, conocimientos básicos en **Linux** y/o **Windows**  y por sobre todo perderle el miedo de una vez por todas al **software malicioso**.

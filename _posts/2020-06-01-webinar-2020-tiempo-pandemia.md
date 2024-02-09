@@ -1,6 +1,8 @@
 ---
 title: "5° Webinar semanal - Ataques en Tiempo de Pandemia"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 

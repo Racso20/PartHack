@@ -3,6 +3,8 @@ title: "Diplomado de Seguridad Ofensiva con Metodología DragonJAR"
 author: "Felipe Castañeda"
 header: 
   teaser: "/assets/images/post/2018/Dragonjar.png"
+categories:
+  - Evento
 ---
 
 De Donde Nace el Diplomado de Seguridad Ofensiva de DragonJAR?

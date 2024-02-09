@@ -3,6 +3,8 @@ title: "Analizador de paquetes CapAnalysis"
 author: "Felipe Castañeda"
 header: 
   teaser: "/assets/images/post/2018/capanalysis.png"
+categories:
+  - Tecnología
 ---
 
 CapAnalysis es una herramienta web con licencia OpenSource, desarrollado para analistas de seguridad, administradores de sistemas y todos los que necesitan analizar grandes cantidades de tráfico de red.

@@ -3,6 +3,8 @@ title: "Hackaton Telefonica 2019 – Reto 0p3npuff"
 author: "31m0"
 header: 
   teaser: "/assets/images/ctf.png"
+categories:
+  - WriteUp
 ---
 
 Para resolver este reto de stego es necesario, instalar openpuff de la pagina https://www.embeddedsw.net/OpenPuff_download.html

@@ -1,6 +1,8 @@
 ---
 title: "Congreso Internacional de Ciberseguridad “CYSECWO2020”"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 La organización “Cybersecurity by women” evento donde mujeres talentosas de diferentes países expusieron sobre ciberseguridad.

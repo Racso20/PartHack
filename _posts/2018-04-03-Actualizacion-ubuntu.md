@@ -3,6 +3,8 @@ title: "Actualización de Seguridad para Ubuntu"
 author: "Felipe Castañeda"
 header: 
   teaser: "/assets/images/post/2018/ubuntu.png"
+categories:
+  - Tecnología
 ---
 ![Tux](/assets/images/post/2018/tux.jpg)
 

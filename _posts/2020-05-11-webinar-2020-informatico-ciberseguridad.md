@@ -1,6 +1,8 @@
 ---
 title: "2° Webinar semanal - Un informatico en Ciberseguridad"
 author: "PartyHack"
+categories:
+  - Evento
 ---
 
 
