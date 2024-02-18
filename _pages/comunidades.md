@@ -66,7 +66,7 @@ permalink: /comunidades
 		<div class="block-column" style="width: 50%;text-align: left;">
 			<ul>
 				<li>Comunidad: Sombrero Blanco</li>
-				<li>Web: https://sombreroblanco.cl/</li>
+				<li>Web: https://sombrero-blanco.com/</li>
 			</ul>
 		</div>
 	</div>
