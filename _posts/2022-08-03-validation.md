@@ -47,6 +47,8 @@ OS and Service detection performed. Please report any incorrect results at https
 
 Empezamos a enumerar directorios e interactuamos con la web, usando nmap –script=http-enum, y solo encuentra account.php. No se encuentra nada más y solo podemos interactuar con la web.
 
+![Validation 1](/assets/images/post/2022/validation1.png)
+
 Al registrarnos en la web nos damos cuenta de que envía un usuario y un país, el cual luego nos muestra nuestro usuario para el país que se eligió. Entre más usuarios registramos a la web más se muestra en la web como usuario, es por ello por lo que podemos pensar que la aplicación puede hacer un INSERT a una base de datos y luego genera un SELECT con el WHERE al país seleccionado. Probamos un SQL injection tanto en el usuario y en el país, y nos percatamos que en la variable country es vulnerable.
 
 Probamos enumerar información importante en la Base de Datos (nombre de base de datos, tablas, usuarios). Descubrimos que la Base de datos que se utiliza es Maria DB 10.5.11

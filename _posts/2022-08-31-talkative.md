@@ -1,8 +1,8 @@
 ---
-title: "Write Up - Validation"
+title: "Write Up - Talkative"
 author: "Nik0"
 header: 
-  teaser: "/assets/images/post/2022/validation.png"
+  teaser: "/assets/images/post/2022/talkative.png"
 categories:
   - WriteUp
 ---
