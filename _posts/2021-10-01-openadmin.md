@@ -1,11 +1,17 @@
 ---
-title: "Nuevo OWASP TOP-10 (2021)"
+title: "Write Up – OPENADMIN"
 author: "Oscar Bravo"
 header: 
   teaser: "/assets/images/post/2021/OpenAdmin.png"
 categories:
   - WriteUp
 ---
+
+OS 				 | LINUX
+Desarrollado por | dmw0ng
+Dificultad 		 | Fácil
+Liberación 		 | 4 enero 2020
+Puntos 			 | 20
 
 ## Enumeración
 
