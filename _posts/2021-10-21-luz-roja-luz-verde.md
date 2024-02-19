@@ -96,6 +96,4 @@ Con esta web tenemos acceso como administrador y podremos ver la flag revisando 
 
 ***flag{c0m0estamosmentalmente?}***
 
-
-
 ![Racso](https://www.hackthebox.com/badge/image/159593)
