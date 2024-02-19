@@ -1,5 +1,5 @@
 ---
-title: "M4ul3 H4ck – Texto Oculto"
+title: "M4ul3 H4ck – Un día vi una vaca sin su cola vestida de uniforme"
 author: "Oscar Bravo"
 header: 
   teaser: "/assets/images/post/2022/maule.jpg"
