@@ -1,5 +1,5 @@
 ---
-title: "Write Up – Luz Roja, Luz Verde"
+title: "Kavacon 2021 – Luz Roja, Luz Verde"
 author: "Oscar Bravo"
 header: 
   teaser: "/assets/images/post/2021/kavacon.png"
