@@ -1,3 +1,5 @@
 <!-- start custom footer snippets -->
-{% include_relative /pages/nosotros.md %}
+{% capture my_include %}{% include_relative _pages/nosotros.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
 <!-- end custom footer snippets -->
