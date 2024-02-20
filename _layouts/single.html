@@ -55,8 +55,33 @@ layout: default
 				<table>
 					<tr>
 						<td><img style="max-height:250px;" src="{{ teaser | relative_url }}" alt=""></td>
+						<td>
+							<table>
+								<tr>
+									<td>OS</td>
+									<td>{{ page.htb.os }}</td>
+								</tr>
+								<tr>
+									<td>Desarrollado por</td>
+									<td>{{ page.htb.developer }}</td>
+								</tr>
+								<tr>
+									<td>Dificultad</td>
+									<td>{{ page.htb.level }}</td>
+								</tr>
+								<tr>
+									<td>Liberación</td>
+									<td>{{ page.htb.date }}</td>
+								</tr>
+								<tr>
+									<td>Puntos</td>
+									<td>{{ page.htb.true }}</td>
+								</tr>
+							</table>
 					</tr>
 				</table>
+			{% else %}
+				<img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
 			{% endif %}
 		  </div>
 		  <br/>
