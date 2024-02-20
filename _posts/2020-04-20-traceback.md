@@ -1,5 +1,5 @@
 ---
-title: "HTB – OPENADMIN"
+title: "HTB – Traceback"
 author: "Oscar Bravo"
 header: 
   teaser: "/assets/images/post/2020/traceback.png"
@@ -48,11 +48,11 @@ Por lo que se empieza a buscar información en el código fuente de la página w
 
 No se encuentra información importante por lo que se utiliza google para buscar nuevas soluciones. Encontramos que el creador posteo en su twitter algunas webshell interesantes.
 
-!(Traceback 1)[/assets/images/post/2020/traceback1.png]
+![Traceback 1](/assets/images/post/2020/traceback1.png)
 
 Al usar este nuevo listado en **dirbuster** con el nuevo listado descubrimos un archivo llamado smevk.php y al revisar el codigo de este en internet descubrimos que se puede acceder con el usuario admin/admin
 
-!(Traceback 2)[/assets/images/post/2020/traceback2.png]
+![Traceback 2](/assets/images/post/2020/traceback2.png)
 
 Acá nos permitirá crear nuestro propio archivo php, en este caso crearemos un php con una shell reverse, al ejecutarla accedemos a nuestra primera shell.
 
