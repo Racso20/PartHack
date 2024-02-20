@@ -9,12 +9,12 @@ tags:
   - HTB
   - Maquina
 htb:
-  - status: true
-  - os: Linux
-  - developer: TheCiberGeek & JDgodd
-  - level: Difícil
-  - date: 09 Abril 2022
-  - point: 40
+  status: true
+  os: Linux
+  developer: TheCiberGeek & JDgodd
+  level: Difícil
+  date: 09 Abril 2022
+  point: 40
 ---
 
 OS | LINUX
