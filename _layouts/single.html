@@ -50,7 +50,7 @@ layout: default
 		{% if page.show_teaser %}
 		  <div style="text-align: center;">
 			{{ page.htb }}
-			{% if page.htb.status %}
+			{% if page.htb.status == "true" %}
 				<table>
 					<tr>
 						<td><img style="max-height:250px;" src="{{ teaser | relative_url }}" alt=""></td>
