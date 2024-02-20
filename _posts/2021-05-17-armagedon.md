@@ -51,7 +51,7 @@ v. 7.58.
 Con searchxploit nos damos cuenta que hay un exploit en Metasploit llamado
 **exploit/unix/webapp/drupal_drupalgeddon2** que nos permite obtener la 1° shell
 
-![]()
+![Armageddon 1](/assets/images/post/2021/armeggedon.png)
 
 ## 1° Shell
 
