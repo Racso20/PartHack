@@ -8,6 +8,8 @@ categories:
 tags:
   - HTB
   - Maquina
+htb:
+  - status: true
 ---
 
 OS | LINUX
