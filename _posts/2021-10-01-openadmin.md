@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/post/2021/OpenAdmin.png"
 categories:
   - WriteUp
+tags:
+  - HTB
+  - Maquina
 ---
 
 OS 				 | LINUX

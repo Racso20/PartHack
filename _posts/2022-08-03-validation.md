@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/post/2022/validation.png"
 categories:
   - WriteUp
+tags:
+  - HTB
+  - Maquina
 ---
 
 

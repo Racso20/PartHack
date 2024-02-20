@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/post/2020/traceback.png"
 categories:
   - WriteUp
+tags:
+  - HTB
+  - Maquina
 ---
 
 OS 				 | LINUX
@@ -91,7 +94,7 @@ Por otro lado, encontramos en la carpeta **.ssh** del usuario los archivos de au
 
 - Creamos nuestro rsa con **ssh-keygen -t rsa**
 - Copiamos este rsa.pub generado en el archivo **authorized_keys** escribiendo
-	echo “TODO LO QUE EL ARCHIVO ID_RSA.PUB CONTENGA” >> /home/sysadmin/.ssh/authorized_keys
+	- echo “TODO LO QUE EL ARCHIVO ID_RSA.PUB CONTENGA” >> /home/sysadmin/.ssh/authorized_keys
 - Ejecutamos una conexión ssh desde nuestro equipo utilizando el id_rsa creado **ssh –i id_rsa sysadmin@10.10.10.181**
 
 Lo que permitirá acceder vía ssh a la máquina, el problema es que hasta el momento mantenemos el mismo nivel de usuario.
