@@ -2,7 +2,7 @@
 title: "HTB - Armagedon"
 author: "Oscar Bravo"
 header: 
-  teaser: "/assets/images/post/2022/armagedon.png"
+  teaser: "/assets/images/post/2021/armagedon.png"
 categories:
   - WriteUp
 tags:
