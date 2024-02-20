@@ -31,7 +31,17 @@ PORT STATE SERVICE VERSION
 80/tcp open http Apache httpd 2.4.29 ((Ubuntu))
 |_http-server-header: Apache/2.4.29 (Ubuntu)
 |_http-title: Help us No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
-TCP/IP fingerprint: OS:SCAN(V=7.80%E=4%D=4/20%OT=22%CT=1%CU=43037%PV=Y%DS=2%DC=T%G=Y%TM=5E9CF01 OS:1%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=102%TI=Z%CI=Z%II=I%TS=A)OPS( OS:O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11 OS:NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN( OS:R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R= OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F= OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD= OS:S)
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/20%OT=22%CT=1%CU=43037%PV=Y%DS=2%DC=T%G=Y%TM=5E9CF01
+OS:1%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=102%TI=Z%CI=Z%II=I%TS=A)OPS( 
+OS:O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11
+OS:NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN( 
+OS:R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
 
 Network Distance: 2 hops
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
@@ -75,7 +85,7 @@ User webadmin may run the following commands on traceback:
 
 ## Shell Usuario
 
-<p>Al escalar el privilegio obtenemos la primera flag, luego empezamos a buscar alguna otra forma de subir el privilegio a root, lo primero que vemos son los procesos <b>ps –aux</b> y nos llama la atención una que es ejecutada por <p>root</p> <i>(/bin/sh -c sleep 30 ; /bin/cp /var/backups/.update-motd.d/* /etc/update-motd.d/)</i> y lo que nos dice que se ejecuta el archivo 00-header cada vez que hay una conexión exitosa de SSH.</p>
+<p>Al escalar el privilegio obtenemos la primera flag, luego empezamos a buscar alguna otra forma de subir el privilegio a root, lo primero que vemos son los procesos <b>ps –aux</b> y nos llama la atención una que es ejecutada por <b>root</b> <i>(/bin/sh -c sleep 30 ; /bin/cp /var/backups/.update-motd.d/* /etc/update-motd.d/)</i> y lo que nos dice que se ejecuta el archivo 00-header cada vez que hay una conexión exitosa de SSH.</p>
 
 Por otro lado, encontramos en la carpeta **.ssh** del usuario los archivos de autorización de las conexiones, es por ello que, ingresaremos nuestro propio ssh-rsa a este archivo para que sea válido al momento de conectarnos
 
