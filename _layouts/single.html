@@ -48,7 +48,11 @@ layout: default
         </header>
 		{% if page.show_teaser %}
 		  <div style="text-align: center;">
+			{% if page.htb.status %}
+			
+			{% else %}
             <img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
+			{% endif %}
 		  </div>
 		  <br/>
 		{% endif %}

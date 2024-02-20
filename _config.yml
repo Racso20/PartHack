@@ -300,6 +300,13 @@ defaults:
       comments: # true
       share: true
       related: true
+    htb:
+      status: false
+      os: ""
+      developer: ""
+      level: ""
+      date: ""
+      point: ""
   # _pages
   - scope:
       path: ""
