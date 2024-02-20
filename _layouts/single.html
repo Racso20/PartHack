@@ -46,30 +46,10 @@ layout: default
 		  {% endif %}
           {% include page__meta.html %}
         </header>
+		{{ if page.title }}
 		{% if page.show_teaser %}
 		  <div style="text-align: center;">
-			{{ page.htb.status }}
-			{% if page.htb.status %}
-				<table>
-					<tr>
-						<td>
-							<img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
-						</td>
-						<td>
-							<table>
-								<tr>
-									<td>1</td>
-									<td>2</td>
-									<td>3</td>
-									<td>4</td>
-									<td>5</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-			{% else %}
-				<img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
-			{% endif %}
+            <img style="max-height:250px;" src="{{ teaser | relative_url }}" alt="">
 		  </div>
 		  <br/>
 		{% endif %}
