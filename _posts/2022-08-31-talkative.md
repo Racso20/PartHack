@@ -10,7 +10,7 @@ tags:
   - Maquina
 htb:
   - status: true
-  - os: LINUX
+  - os: Linux
   - developer: TheCiberGeek & JDgodd
   - level: Difícil
   - date: 09 Abril 2022
