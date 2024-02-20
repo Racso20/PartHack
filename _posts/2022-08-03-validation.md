@@ -1,5 +1,5 @@
 ---
-title: "Write Up - Validation"
+title: "HTB - Validation"
 author: "Oscar Bravo"
 header: 
   teaser: "/assets/images/post/2022/validation.png"

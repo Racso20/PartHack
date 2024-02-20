@@ -1,5 +1,5 @@
 ---
-title: "Write Up – OPENADMIN"
+title: "HTB – OPENADMIN"
 author: "Oscar Bravo"
 header: 
   teaser: "/assets/images/post/2021/OpenAdmin.png"

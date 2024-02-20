@@ -1,5 +1,5 @@
 ---
-title: "Write Up - Talkative"
+title: "HTB - Talkative"
 author: "Nik0"
 header: 
   teaser: "/assets/images/post/2022/talkative.png"
