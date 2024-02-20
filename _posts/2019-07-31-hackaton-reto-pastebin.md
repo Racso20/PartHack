@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/ctf.png"
 categories:
   - WriteUp
+tags:
+  - Hackaton
+  - CTF
 ---
 
 Este desafío parte por un link a un supuesto “leak” en pastebin https://pastebin.com/6f090H8Z

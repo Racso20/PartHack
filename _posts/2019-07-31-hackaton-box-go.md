@@ -3,6 +3,9 @@ title: "Hackaton Telefonica 2019 – Box GO"
 author: "31m0"
 categories:
   - WriteUp
+tags:
+  - Hackaton
+  - Maquina
 ---
 
 

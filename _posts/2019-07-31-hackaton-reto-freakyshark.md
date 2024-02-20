@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/ctf.png"
 categories:
   - WriteUp
+tags:
+  - Hackaton
+  - CTF
 ---
 
 En este reto nos entregan el archivo fr3akysh4rk.pcapng el cual corresponde a un archivo de captura de trafico que podemos abrir con wireshark, al abrirlo nos aparece el siguiente error

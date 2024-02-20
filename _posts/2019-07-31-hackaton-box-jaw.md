@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/ctf.png"
 categories:
   - WriteUp
+tags:
+  - Hackaton
+  - Maquina
 ---
 
 

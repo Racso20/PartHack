@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/post/2022/maule.jpg"
 categories:
   - WriteUp
+tags:
+  - MauleHack
+  - CTF
 ---
 
 Lo único que nos entregan acá es un hash 7ab1156ebd2c00567186a3985e990382 por lo que usamos hash-identifier para qsaber que hash es

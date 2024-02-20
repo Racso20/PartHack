@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/post/2022/maule.jpg"
 categories:
   - WriteUp
+tags:
+  - MauleHack
+  - CTF
 ---
 
 En este retro nos entrega un archivo y nos dicen lo siguiente

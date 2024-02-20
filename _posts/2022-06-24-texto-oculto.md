@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/post/2022/maule.jpg"
 categories:
   - WriteUp
+tags:
+  - MauleHack
+  - CTF
 ---
 
 Acá nos dicen que en una web hay un texto oculto

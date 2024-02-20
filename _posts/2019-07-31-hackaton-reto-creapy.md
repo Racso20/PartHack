@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/ctf.png"
 categories:
   - WriteUp
+tags:
+  - Hackaton
+  - CTF
 ---
 
 Para este desafió no necesitamos herramientas complicadas, solo un reproductor de vídeo para capturar

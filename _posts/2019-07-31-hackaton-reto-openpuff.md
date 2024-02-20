@@ -5,6 +5,9 @@ header:
   teaser: "/assets/images/ctf.png"
 categories:
   - WriteUp
+tags:
+  - Hackaton
+  - CTF
 ---
 
 Para resolver este reto de stego es necesario, instalar openpuff de la pagina https://www.embeddedsw.net/OpenPuff_download.html
