@@ -8,14 +8,14 @@ categories:
 tags:
   - HTB
   - Maquina
+htb:
+  status: true
+  os: Linux
+  developer: ipsec
+  level: Fácil
+  date: 13 Septiembre 2021
+  point: 20
 ---
-
-
-OS | LINUX
-Desarrollado por | ipsec
-Dificultad | Fácil
-Liberación | 13 Septiembre 2021
-Puntos | 20
 
 ## Enumeración
 

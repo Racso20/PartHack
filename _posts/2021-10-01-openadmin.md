@@ -8,13 +8,14 @@ categories:
 tags:
   - HTB
   - Maquina
+htb:
+  status: true
+  os: Linux
+  developer: dmw0ng
+  level: Fácil
+  date: 4 enero 2020
+  point: 20
 ---
-
-OS 				 | LINUX
-Desarrollado por | dmw0ng
-Dificultad 		 | Fácil
-Liberación 		 | 4 enero 2020
-Puntos 			 | 20
 
 ## Enumeración
 

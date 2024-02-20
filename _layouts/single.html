@@ -49,9 +49,8 @@ layout: default
 		
 		{% if page.show_teaser %}
 		  <div style="text-align: center;">
-			{{ page.htb }}
-			{{ page.htb.status }}
 			{% if page.htb.status %}
+				<center>
 				<table>
 					<tr>
 						<td><img style="max-height:250px;" src="{{ teaser | relative_url }}" alt=""></td>
@@ -75,7 +74,7 @@ layout: default
 								</tr>
 								<tr>
 									<td>Puntos</td>
-									<td>{{ page.htb.true }}</td>
+									<td>{{ page.htb.point }}</td>
 								</tr>
 							</table>
 					</tr>

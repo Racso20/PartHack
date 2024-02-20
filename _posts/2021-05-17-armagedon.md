@@ -8,14 +8,14 @@ categories:
 tags:
   - HTB
   - Maquina
+htb:
+  status: true
+  os: Linux
+  developer: bertolis
+  level: Fácil
+  date: 27 Marzo 2021
+  point: 20
 ---
-
-
-OS | LINUX
-Desarrollado por | bertolis
-Dificultad | Fácil
-Liberación | 27 Marzo 2021
-Puntos | 20
 
 ## Enumeración
 

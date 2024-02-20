@@ -17,12 +17,6 @@ htb:
   point: 40
 ---
 
-OS | LINUX
-Desarrollado por | TheCiberGeek & JDgodd
-Dificultad | Difícil
-Liberación | 09 Abril 2022
-Puntos | 40
-
 ## Introducción
 
 En este write up de la máquina Talkative, veremos temas como:
