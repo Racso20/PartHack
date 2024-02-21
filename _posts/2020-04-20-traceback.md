@@ -8,13 +8,14 @@ categories:
 tags:
   - HTB
   - Maquina
+htb:
+  status: true
+  os: Linux
+  developer: Xh4H
+  level: Fácil
+  date: 14 marzo 2020
+  point: 20
 ---
-
-OS 				 | LINUX
-Desarrollado por | Xh4H
-Dificultad 		 | Fácil
-Liberación 		 | 14 marzo 2020
-Puntos 			 | 20
 
 ## Enumeración
 
