@@ -11,7 +11,7 @@ tags:
 htb:
   status: true
   os: Linux
-  developer: TheCiberGeek & JDgodd
+  developer: Commandercool
   level: Fácil
   date: 02 Septiembre 2023
   point: 20
