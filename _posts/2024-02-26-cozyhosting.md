@@ -1,24 +1,31 @@
-
 ---
-# Información general
-
-|                  |                                 |
-| ---------------- | ------------------------------- |
-| OS               | Linux                           |
-| Desarrollado por | Pablo Flores(Ge0), Amal & Mitia |
-| Dificultad       | Fácil                           |
-| Liberación       | 26 Febrero 2024                 |
-| Puntos           | 20                              |
-
+title: "HTB - CozyHosting"
+author: "Pablo Flores(Ge0), Amal & Mitia"
+header: 
+  teaser: "/assets/images/post/2024/cozyhosting.png"
+categories:
+  - WriteUp
+tags:
+  - HTB
+  - Maquina
+htb:
+  status: true
+  os: Linux
+  developer: TheCiberGeek & JDgodd
+  level: Fácil
+  date: 02 Septiembre 2023
+  point: 20
 ---
-# Enumeración
 
-## Puertos
+## Enumeración
+
+### Puertos
 Se realiza un escaneo de puertos y servicios a la IP de la máquina usando nmap con el comando:
 
 ```sh
 sudo nmap -sCV -vvv -A -T5 -p- 10.10.11.230
 ```
+
 Se encuentran abiertos los puertos 22 y 80.
 Se realiza un escaneo enfocado a estos puertos de nuevo con nmap:
 
@@ -36,11 +43,11 @@ sudo nmap -sCV -A -p22,80 10.10.11.230
 	|http-favicon: Unknown favicon MD5: 72A61F8058A9468D57C3017158769B1F
 	|http-methods:
 	|**Supported Methods: GET HEAD OPTIONS**
-````
+```
 
 Encontramos información como la versión del ssh, el puerto 80 usa nginx
 
-## Puerto 80
+### Puerto 80
 
 Se realiza un escaneo al puerto 80 usando "whatweb".
 
@@ -52,14 +59,13 @@ La parte que interesa es: RedirectLocation[**http://cozyhosting.htb**], la que n
 
 ```sh
 sudo echo "10.10.11.230 cozyhosting.htb" | sudo tee -a /etc/hosts
-
 ```
 
 Al realizar fuzzing no se encontró información relevante.
 
 Al visualizar el error 404 en una página errónea, la página muestra información útil.
 
-![[Pasted image 20240224150700.png|700]]
+![CozyHonting 1](/assets/images/post/2024/cozy1.png)
 
 *This application has no explicit mapping for /error, so you are seeing this as a fallback.*
 
@@ -77,37 +83,37 @@ Se encuentran varios subdirectorios:
 
 "actuator/env", "actuator", "actuator/env/lang", "actuator/health", "actuator/env/path", "**actuator/sessions**", "actuator/mappings", "actuator/beans"
 
-# Ganando acceso
+## Ganando acceso
 
-## Reemplazo de cookie
+### Reemplazo de cookie
 
 Se accede a "actuator/sessions", en el que se encuentra información relevante de un usuario y su cookie de sessión:
 
-![[Pasted image 20240224151423.png|700]]
+![CozyHosting 2](/assets/images/post/2024/cozy2.png)
 
 Al entrar a la página cozyhosting.htb/login
 
 Se presenta una página de inicio de sesión, al rellenar los campos de uduario y contraseña con cualquier texto y reemplazar la cookie de la página por la encontrada anteriormente de "kanderson", se recarga la página.
 
-![[Pasted image 20240224164342.png|700]]
+![CozyHosting 3](/assets/images/post/2024/cozy3.png)
 
 Esto permite el acceso a la página de administrador: cozihosting.htb/admin
 
 En la cual, se encuentran dos campos, "Hostname" y "Username"
 
-![[Pasted image 20240224174614.png|700]]
+![CozyHosting 4](/assets/images/post/2024/cozy4.png)
 
-## Capturando la solicitud
+### Capturando la solicitud
 
 Al rellenar la información con cualquier texto (partyhack en este caso), se procede a capturar el la request con burpsuite y posteriormente enviarla al repeater.
 
 Luego de enviar la solicitud analizamos la respuesta del servidor y al parecer está ejecutando algo relacionado con ssh.
 
-![[Pasted image 20240224175147.png|700]]
+![CozyHosting 5](/assets/images/post/2024/cozy5.png)
 
 Intenta ejecutar el comando "ssh" usando como los datos proporcionados: partyhack en ambos casos.
 
-## Probando PING
+### Probando PING
 
 Teniendo esa información podemos intentar ejecutar comandos en el sistema, usando, en este caso un "ping" a nuestra máquina con reemplazando la línea 15 de la solicitud:
 
@@ -123,9 +129,9 @@ sudo tcpdump ip proto \\icmp -i tun0
 
 Ya en escucha, a ejecutar el ping se debería recibirlo como a continuación:
 
-![[Pasted image 20240224180231.png|700]]
+![CozyHosting 6](/assets/images/post/2024/cozy6.png)
 
-## Ejecutando la reverse shell
+### Ejecutando la reverse shell
 
 Se pone en escucha a la máquina local usando netcat en el puerrto 4747 con lo siguiente:
 
@@ -143,11 +149,11 @@ Y se envía la solicitud, no sin antes aplicar un url-encode para asegurarse que
 
 Si todo se realizó correctamente obtendremos la revershell como el usuario "app"
 
-![[Screenshot_20240224_184639.png]]
+![CozyHosting 7](/assets/images/post/2024/cozy7.png)
 
 Los usuarios que son de interés son `josh` y `root`, por lo que lo tendremos en cuenta para después.
 
-![[Pasted image 20240226222427.png]]
+![CozyHosting 8](/assets/images/post/2024/cozy8.png)
 
 Al listar los documentos podemos ver un archivo "cloudhosting-0.0.1.jar.jar" que podría contener información relevante.
 
@@ -190,11 +196,11 @@ psql -h 127.0.0.1 -U postgres -d cozyhosting
 
 Listamos las tablas
 
-![[Pasted image 20240226215038.png|400]]
+![CozyHosting 9](/assets/images/post/2024/cozy9.png)
 
 Mostramos el contenido de las columnas de la tabla `user`
 
-![[Pasted image 20240226215454.png|700]]
+![CozyHosting 10](/assets/images/post/2024/cozy10.png)
 
 Teniendo los hashes de las contraseñas, podemos usar fuerza bruta para descifrar el de el usuario `admin` que nos interesa más. Para esto se puede usar `johntheripper`
 
@@ -203,7 +209,7 @@ john --format=bcrypt --wordlist=/usr/share/wordlists/rockyou.txt hash
 ```
 El tipo de hash es bcrypt.
 
-![[Pasted image 20240226221711.png|700]]
+![CozyHosting 11](/assets/images/post/2024/cozy11.png)
 
 Ingresamos mediante `ssh` usando la contraseña y el usuario `josh`
 
@@ -213,9 +219,9 @@ ssh josh@10.10.11.230 -p22
 
 Y obtenemos la flag de user:
 
-![[Pasted image 20240226223120.png|400]]
+![CozyHosting 12](/assets/images/post/2024/cozy12.png)
 
-# Escalada de privilegios
+## Escalada de privilegios
 
 Probamos si ejecutar algún comando como root:
 
@@ -231,5 +237,6 @@ Por lo tanto escalamos privilegios usando ssh de la siguiente manera:
 sudo ssh -o ProxyCommand=';sh 0<&2 1>&2' x
 ```
 
-![[Pasted image 20240226231132.png|400]]
+![CozyHosting 13](/assets/images/post/2024/cozy13.png)
 
+![Ge0FM](https://www.hackthebox.com/badge/image/1827323) |  | 
