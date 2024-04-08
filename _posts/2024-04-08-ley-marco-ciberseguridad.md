@@ -16,4 +16,4 @@ Entre los puntos a considerar en esta ley está:
 - **Coordinación Interinstitucional**: Se promueve la coordinación entre diferentes entidades y organismos del Estado.
 - **Educación y Concientización**: Se establece como meta la permanente educación y concientización en materias de ciberseguridad, por parte de Estado y del sector privado, fomentando la capacitación de profesionales y la sensibilización de la población en general.
 
-[https://www.diariooficial.interior.gob.cl/publicaciones/2024/04/08/43820/01/2475674.pdf](DIARIO OFICIAL - LEY MARCO CIBER SEGURIDAD){:target="_blank"}
+[DIARIO OFICIAL - LEY MARCO CIBER SEGURIDAD](https://www.diariooficial.interior.gob.cl/publicaciones/2024/04/08/43820/01/2475674.pdf){:target="_blank"}
